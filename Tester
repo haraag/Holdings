@@ -1,0 +1,10 @@
+holding:collectedBy a owl:ObjectProperty ;
+    rdfs:label "collected by"@en ;
+    rdfs:comment "Relates a document and/or item to an agent who collects it."@en ;
+    rdfs:domain [
+      a owl:Class ;
+        owl:unionOf (holding:Document holding:Item )
+     ] ;
+    rdfs:range holding:Agent ;
+    owl:inverseOf holding:collects ;
+    rdfs:seeAlso rdai:collector .
