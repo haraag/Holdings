@@ -8,3 +8,170 @@ holding:collectedBy a owl:ObjectProperty ;
     rdfs:range holding:Agent ;
     owl:inverseOf holding:collects ;
     rdfs:seeAlso rdai:collector .
+    
+    ----------------------
+    # NOTE: This is a sketch. Not all terms used here have been defined yet.
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix sdo: <http://schema.org/> .
+@prefix bf1: <http://bibframe.org/vocab/> .
+@prefix bf2: <http://bibframe.org/vocab/> . # TODO: new URI?
+@prefix : <https://id.kb.se/vocab/> .
+@base <https://libris.kb.se/> .
+
+## Things under consideration
+#
+# Which term to be used for :moreSpecifically?
+# Cf. sdo:workExample | skos:narrower | ^(sdo:model|rdfa:copy) ...
+#
+# We consider levels of specificity to be more useful than separating out
+# sdo:Offer entities from a compound sdo:SomeProducts entity. This is more in
+# line with BibFrame, although we're not sure if bf:hasComponent properly
+# conveys the notion of "more specific entity". (Also, BF1 had distinct levels
+# for "some" and "one" in bf1:HeldMaterial and bf1:HeldItem respectively,
+# whereas BF2 "only" has bf2:Item.)
+#
+# Note that putting the "access and custodian" properties on the bf1:Item is
+# more conflating than describing this using some qualified relation entity
+# (which e.g. Offer does, perhaps even bf1:Annotation do). It isn't necessarily
+# illogical though (the item is at shelf X, is owned by Y and can be lent under
+# condition Z). The utility of a qualified entity combining these facts should
+# be considered though to make an informed decision about it.
+
+
+# The Holding
+</pt0tb0rv33gksdj#it> a sdo:SomeProducts, sdo:Offer, bf1:HeldMaterial, bf2:Item ;
+    :acquisitionStatus :CurrentlyReceived ;
+    :retentionPolicy :PermanentlyRetained ;
+    sdo:inventoryLevel 11 ;
+    bf1:heldBy </organization/Bibliotek1> ;
+    bf1:holdingFor </fxql7jqr38b1dkf#it> ;
+    :moreSpecifically
+        [ a sdo:SomeProducts ;
+            sdo:inventoryLevel 4 ;
+            bf1:shelfMark "168113" ] ,
+        [ a sdo:SomeProducts ;
+            sdo:inventoryLevel 6 ;
+            bf1:shelfMark "164565" ] ,
+        [ a sdo:IndividualProduct ;
+            bf1:heldBy </organization/Bibliotek1-källaren> ;
+            sdo:inventoryLevel 1 ;
+            bf1:copyNote "Has coffee stains";
+            bf1:shelfMark "Källarplats 32" ] .
+
+# Example library
+</organization/Bibliotek1> a org:Organization ;
+    sdo:name "Bibliotek Ett" .
+
+# Department of Example library
+</organization/Bibliotek1-källaren> a org:OrganizationalUnit ;
+    org:memberOf </organization/Bibliotek1> ;
+    sdo:name "Källarförrådet på Bibliotek Ett" .
+    
+  
+    
+
+
+# The Bibliographic Entity
+# (The prototypical product model of a book in hardcover form.)
+</fxql7jqr38b1dkf#it> a sdo:Book, sdo:ProductModel;
+    owl:sameAs <http://libris.kb.se/resource/bib/7149593> ;
+    dct:hasFormat :Hardcover ;
+    dct::title "Anteckningar från en ö" .
+
+# OBS gjort efter marcmappningar 20160323 - ej klart 
+   #Example 1 hold/39698169   
+    </pt0tb0rv33gksdj#it(39698169)> a sdo:someProducts, sdo:Offer, bf1:HeldMaterial, bf2:Item ;
+    :acquisitionStatus :CurrentlyReceived ;
+    :retentionPolicy :PermanentlyRetained ;
+    sdo:inventoryLevel 1 ;
+    bf1:heldBy </organization/Kld1> ;
+    bf1:holdingFor </http://libris-stg.kb.se/wf7gcdv71z4k585> ;
+    :moreSpecifically
+        [ a sdo:SomeProducts ;
+            sdo:inventoryLevel 1 ;
+            bf1:shelfMark "He.02/VC" ] ,
+            
+# Example 2 hold/39698169
+ </pt0tb0rv33gksdj#it(39698169)> a sdo:Product, sdo:Offer, bf1:HeldMaterial, bf2:Item ;
+    :acquisitionStatus :CurrentlyReceived ;
+    :retentionPolicy :PermanentlyRetained ;
+    bf1:heldBy </organization/Kld1> ;
+    bf1:holdingFor </http://libris-stg.kb.se/wf7gcdv71z4k585> ;
+        [a sdo:product ;
+        bf1:shelfMark "He.02/VC" ]
+        
+# Example  Tiskriftsårgångar hold/40508888
+</pt0tb0rv33gksdj#it(40508888)> a sdo:someProducts, sdo:Offer, bf1:HeldMaterial, bf2:Item ;
+    :acquisitionStatus :CurrentlyReceived ;
+    :retentionPolicy :PermanentlyRetained ;
+   
+    bf1:heldBy </organization/Kd> ;
+    bf1:holdingFor </http://libris-stg.kb.se/cvn9mh8p23vf7hs> ;
+    :moreSpecifically
+        [ a sdo:SomeProducts ;
+            
+            bf1:shelfMark "Tidskrifter I Plan 1"
+            sdo:description " Vol. 1(1976):4-16(1991)" ] 
+            
+
+# Example  Tiskriftsårgångar flera bestånd hold/14225535
+</pt0tb0rv33gksdj#it(14225535)> a sdo:SomeProducts, sdo:Offer, bf1:HeldMaterial, bf2:Item ;
+    :acquisitionStatus :CurrentlyReceived ;
+    :retentionPolicy :PermanentlyRetained ;
+    sdo:inventoryLevel 6 ;
+    bf1:heldBy </organization/S> ;
+    bf1:holdingFor </http://libris.kb.se/resource/bib/8261414 > ;
+    :moreSpecifically
+        [ a sdo:SomeProducts ;
+            sdo:inventoryLevel 1 ;
+            bf1:shelfMark "bP";
+            :materialSpecified "1995-: ;
+            :sequenceNumber " 1.2 ;
+            :shelfControlNumber "1927"] ,
+            
+        [ a sdo:SomeProducts ;
+            sdo:inventoryLevel 2 ;
+            bf1:shelfMark "oPF";
+            :materialSpecified "1956-1994" ;
+            :sequenceNumber " 1.2 ;
+            :copyNumber "B (original)"
+            :copyNote "1989:49/50 saknar s. 21-60" ] ,
+            
+       [ a sdo:SomeProducts ;
+            sdo:inventoryLevel 3 ;
+            bf1:shelfMark "MF";
+            :materialSpecified "1937-1963" ;
+            :sequenceNumber " 1.2 ;
+            :shelfControlNumber "7";
+            :copyNumber "A (mikrofilm)"
+            :copyNote "Står framme i mikrofilmsläsesalen" ]
+            
+        [ a  sdo:SomeProducts ;
+            sdo:inventoryLevel 4 ;
+            :materialSpecified "1937-1955" ;
+            :sequenceNumber " 1.2 ;
+            :shelfControlNumber "54 Sy Fol";
+            :copyNumber "B (original)
+             ] .
+      [ a  sdo:SomeProducts ;
+            sdo:inventoryLevel 5 ;
+            :copyNote "1937-1963: Orig. framtages ej" 
+            :copyNote "2005:3 reklameras"
+            :copyNote "Påb 070205/bwn"
+            :cataloguersNote "saknas i den bundna volymen" ]
+           
+     [ a  sdo:SomeProducts ;
+            sdo:inventoryLevel 6 ;
+            bf:shelfMark " 288 Li 4/ " ;
+            :shelfLocation " Lipschutz samling" ;
+            :shelfcontrolNumber " P 25
+            :copyNote "1968:23, 1969:14, 1973:16, 1986:48, 1988:39" 
+            :cataloguersNote "inglun" ] 
+
+             
+
+
+
+
