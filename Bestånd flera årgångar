@@ -1,0 +1,29 @@
+
+<http://id.kb.se/hold/item/33359920 > a bf2:Item ;
+bf2:heldBy <https://libris.kb.se/library/Lin1> ;
+:shelfLocation "Stiftsbiblioteket" ;
+bf2:subLocation "Stiftsbiblioteket" ;
+bf2:itemOf <http://libris.kb.se/bib/568184> ;
+bf2:hasComponent 
+  [a bf2:item ;
+  bf2:componentOf <http://id.kb.se/hold/item/33359920> ;
+  bf2:enumerationAndChronology "Årg. 1(1944)" ]
+  [a bf2:item ;
+  bf2:componentOf <http://id.kb.se/hold/item/33359920> ;
+  bf2:enumerationAndChronology "Årg. 2(1945)" ]
+   [a bf2:item ;
+  bf2:componentOf <http://id.kb.se/hold/item/33359920> ;
+  bf2:enumerationAndChronology "Årg. 3(1946)" ]
+   [a bf2:item ;
+  bf2:componentOf <http://id.kb.se/hold/item/33359920> ;
+  bf2:enumerationAndChronology " Årg. 4(1947)" 
+
+# 852 5 Lin1 - i 5 bör det vara titel/författare, fel alltså
+# Stiftsbiblioteket har eget sigel Lin2, här gjort som underavdelning till Stadsbiblioteket
+# 863 t 38415 verkar vara ett standardnummer (Christer semester denna veck)
+# 863 inte mappat på https://github.com/libris/whelk-core/blob/develop/src/main/resources/ext/marcframe.json
+852	 	5 Lin1b Lin1c Stiftsbiblioteket
+863	 3	5 Lin18 1.1a Årg. 1(1944).t 38415
+863	 3	5 Lin18 1.2a Årg. 2(1945).t 38415
+863	 3	5 Lin18 1.3a Årg. 3(1946).t 38415
+863	 3	5 Lin18 1.4a Årg. 4(1947).t 38415
