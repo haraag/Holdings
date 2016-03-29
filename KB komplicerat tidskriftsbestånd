@@ -1,0 +1,61 @@
+ Example  Tidskriftsårgångar flera bestånd hold/14225535
+</pt0tb0rv33gksdj#it(14225535)> a sdo:SomeProducts, sdo:Offer, bf1:HeldMaterial, bf2:Item ;
+    :acquisitionStatus :CurrentlyReceived ;
+    :retentionPolicy :PermanentlyRetained ;
+    sdo:inventoryLevel 6 ;
+    bf1:heldBy </organization/S> ;
+    bf1:holdingFor </http://libris.kb.se/resource/bib/8261414 > ;
+    :moreSpecifically
+        [ a sdo:SomeProducts ;
+            sdo:inventoryLevel 1 ;
+            bf1:shelfMark "bP";
+            :materialSpecified "1995-: ;
+            :sequenceNumber " 1.2 ;
+            :shelfControlNumber "1927"] ,
+            
+        [ a sdo:SomeProducts ;
+            sdo:inventoryLevel 2 ;
+            bf1:shelfMark "oPF";
+            :materialSpecified "1956-1994" ;
+            :sequenceNumber " 1.2 ;
+            :copyNumber "B (original)"
+            :copyNote "1989:49/50 saknar s. 21-60" ] ,
+            
+       [ a sdo:SomeProducts ;
+            sdo:inventoryLevel 3 ;
+            bf1:shelfMark "MF";
+            :materialSpecified "1937-1963" ;
+            :sequenceNumber " 1.2 ;
+            :shelfControlNumber "7";
+            :copyNumber "A (mikrofilm)"
+            :copyNote "Står framme i mikrofilmsläsesalen" ]
+            
+        [ a  sdo:SomeProducts ;
+            sdo:inventoryLevel 4 ;
+            :materialSpecified "1937-1955" ;
+            :sequenceNumber " 1.2 ;
+            :shelfControlNumber "54 Sy Fol";
+            :copyNumber "B (original)
+             ] .
+      [ a  sdo:SomeProducts ;
+            sdo:inventoryLevel 5 ;
+            :copyNote "1937-1963: Orig. framtages ej" 
+            :copyNote "2005:3 reklameras"
+            :copyNote "Påb 070205/bwn"
+            :cataloguersNote "saknas i den bundna volymen" ]
+           
+     [ a  sdo:SomeProducts ;
+            sdo:inventoryLevel 6 ;
+            bf:shelfMark " 288 Li 4/ " ;
+            :shelfLocation " Lipschutz samling" ;
+            :shelfcontrolNumber " P 25
+            :copyNote "1968:23, 1969:14, 1973:16, 1986:48, 1988:39" 
+            :cataloguersNote "inglun" ] 
+
+             
+852	 	5 S8 1.23 1995-:b Sh bPj 1927
+852	 	5 S8 1.23 1956-1994:b Sh oPFj 8t B (original)z 1989:49/50 saknar s. 21-60
+852	 	5 S8 1.13 1937-1963:b Sh MF SvPj 7t A (mikrofilm)z Står framme i mikrofilmsläsesalen
+852	 	5 S8 1.23 1937-1955:b Sj 54 Sy Folt B (original)
+866	 	5 S8 1.2a 1937-z 1937-1963: Orig. framtages ejz 2005:3 reklamerasx saknas i den bundna volymenz Påb 070205/bwn
+852	 	5 Sb Sc Lipschutz samlingh 288 Li 4/j P 25x lip2014x inglunz 1968:23, 1969:14, 1973:16, 1986:48, 1988:39852	
