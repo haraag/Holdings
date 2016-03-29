@@ -1,0 +1,14 @@
+<http://data.kb.se/hold/item/39698169> a bf2:item ;
+bf2:itemId "39698169" ;
+bf2:heldBy  <https://libris.kb.se/library/Kld1> ;
+bf2:itemOf <http://libris.kb.se/bib/16583077> ;
+bf2:shelfMark "He.02/VC" ;
+
+
+
+
+
+
+
+841	 	5 Kld1a x ab 1406124u 8 1001uu 0901128e 4
+852	 	5 Kld1b Kld1h He.02/VC
