@@ -3,13 +3,14 @@
     :acquisitionStatus :CurrentlyReceived ;
     :retentionPolicy :PermanentlyRetained ;
     sdo:inventoryLevel 6 ;
-    bf1:heldBy </organization/S> ;
+    bf1:heldBy <https://libris.kb.se/library/S> ;
     bf1:holdingFor </http://libris.kb.se/resource/bib/8261414 > ;
     :moreSpecifically
         [ a sdo:SomeProducts ;
             sdo:inventoryLevel 1 ;
-            bf1:shelfMark "bP";
+            bf2:shelfMark "bP";
             :materialSpecified "1995-: ;
+            bf2:enumerationAndChronology "1995-: ;
             :sequenceNumber " 1.2 ;
             :shelfControlNumber "1927"] ,
             
@@ -17,6 +18,7 @@
             sdo:inventoryLevel 2 ;
             bf1:shelfMark "oPF";
             :materialSpecified "1956-1994" ;
+            bf2:enumerationAndChronology "1956-1994 ;
             :sequenceNumber " 1.2 ;
             :copyNumber "B (original)"
             :copyNote "1989:49/50 saknar s. 21-60" ] ,
@@ -25,6 +27,7 @@
             sdo:inventoryLevel 3 ;
             bf1:shelfMark "MF";
             :materialSpecified "1937-1963" ;
+            bf2:enumerationAndChronology "1937-1963 ;
             :sequenceNumber " 1.2 ;
             :shelfControlNumber "7";
             :copyNumber "A (mikrofilm)"
@@ -33,6 +36,7 @@
         [ a  sdo:SomeProducts ;
             sdo:inventoryLevel 4 ;
             :materialSpecified "1937-1955" ;
+            bf2:enumerationAndChronology "1937-1955 ;
             :sequenceNumber " 1.2 ;
             :shelfControlNumber "54 Sy Fol";
             :copyNumber "B (original)
