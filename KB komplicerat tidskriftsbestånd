@@ -1,3 +1,5 @@
+# Gjort efter Niklas exempel, bibframe och https://github.com/libris/whelk-core/blob/develop/src/main/resources/ext/marcframe.json
+
  Example  Tidskriftsårgångar flera bestånd hold/14225535
 </pt0tb0rv33gksdj#it(14225535)> a sdo:SomeProducts, sdo:Offer, bf1:HeldMaterial, bf2:Item ;
     :acquisitionStatus :CurrentlyReceived ;
