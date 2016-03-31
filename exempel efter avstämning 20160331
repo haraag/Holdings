@@ -1,0 +1,95 @@
+#Exempel 1
+<http://id.kb.se/hold/item/40508888 > a kbv:item;
+kbv:heldBy <https://libris.kb.se/library/Kd> ;
+kbv:itemOf <http://libris.kb.se/bib/1858131> ;
+bf1:shelfMark " Tidskrifter I Plan 1" ;
+:description " Vol. 1(1976):4-16(1991)" 
+
+
+# Marcpost
+841	 	5 Kda y ab 1409154u 8 1001uu 0901128e 4
+852	8 	5 Kdb Kdh Tidskrifter I Plan 1
+866	 1	5 Kda Vol. 1(1976):4-16(1991)
+
+
+#Exempel 2
+<http://id.kb.se/hold/item/33359920 > a kbv:item;
+kbv:heldBy <https://libris.kb.se/library/Lin1> ;
+:shelfLocation "Stiftsbiblioteket" ;
+bf1:subLocation "Stiftsbiblioteket" ;
+kbv:hitemOf <http://libris.kb.se/bib/568184> ;
+kbv:hasComponent 
+  [a kbv:item ;
+ bf1:enumerationAndChronology "Årg. 1(1944)" ]
+  [a kbv:item ;
+ bf1:enumerationAndChronology "Årg. 2(1945)" ]
+   [a kbv:item ;
+  bf1:enumerationAndChronology "Årg. 3(1946)" ]
+   [a kbv:item ;
+  bf1:enumerationAndChronology " Årg. 4(1947)" ]
+
+# 852 5 Lin1 - i 5 bör det vara titel/författare, fel alltså
+# Stiftsbiblioteket har eget sigel Lin2, här gjort som underavdelning till Stadsbiblioteket
+# 863 t 38415 verkar vara ett standardnummer (Christer semester denna veck)
+# 863 inte mappat på https://github.com/libris/whelk-core/blob/develop/src/main/resources/ext/marcframe.json
+852	 	5 Lin1  b Lin1  c Stiftsbiblioteket
+863	 3	5 Lin1  8 1.1a Årg. 1(1944).t 38415
+863	 3	5 Lin1  8 1.2a Årg. 2(1945).t 38415
+863	 3	5 Lin1  8 1.3a Årg. 3(1946).t 38415
+863	 3	5 Lin1  8 1.4a Årg. 4(1947).t 38415
+
+#Exempel 3
+# Gjort efter Niklas exempel, bibframe och https://github.com/libris/whelk-core/blob/develop/src/main/resources/ext/marcframe.json
+
+ Example  Tidskriftsårgångar flera bestånd hold/14225535
+</pt0tb0rv33gksdj#it(14225535)> a kbvitem ;
+   kbv:heldBy <https://libris.kb.se/library/S> ;
+  kbv:itemOf </http://libris.kb.se/resource/bib/8261414 > ;
+  kbv:hasComponents
+  [ a item:
+    bf1:shelfMark "bP";
+    :materialSpecified "1995-: ;
+    :sequenceNumber " 1.2 ;
+    :shelfControlNumber "1927"] ,
+     
+  [ a kbv:item ;
+    bf1:shelfMark "oPF";
+    :materialSpecified "1956-1994" ;
+    :sequenceNumber " 1.2 ;
+    :copyNumber "B (original)"
+    :copyNote "1989:49/50 saknar s. 21-60" ] ,
+     
+  [ a skbv:item ;
+    bf1:shelfMark "MF";
+    :materialSpecified "1937-1963" ;
+    :sequenceNumber " 1.2 ;
+    :shelfControlNumber "7";
+    :copyNumber "A (mikrofilm)"
+    :copyNote "Står framme i mikrofilmsläsesalen" ]
+   
+  [ a  kbv:item ;
+    :materialSpecified "1937-1955" ;
+    :sequenceNumber " 1.2 ;
+    :shelfControlNumber "54 Sy Fol";
+    :copyNumber "B (original) ] 
+    
+  [ a  kbv:item ;
+    :copyNote "1937-1963: Orig. framtages ej" 
+    :copyNote "2005:3 reklameras"
+    :copyNote "Påb 070205/bwn"
+    :cataloguersNote "saknas i den bundna volymen" ]
+  
+     [ a  kbv:item ;
+      bf1:shelfMark " 288 Li 4/ " ;
+      :shelfLocation " Lipschutz samling" ;
+      :shelfcontrolNumber " P 25
+      :copyNote "1968:23, 1969:14, 1973:16, 1986:48, 1988:39" 
+      :cataloguersNote "inglun" ] 
+
+ 
+852	 	5 S8 1.23 1995-:b Sh bPj 1927
+852	 	5 S8 1.23 1956-1994:b Sh oPFj 8t B (original)z 1989:49/50 saknar s. 21-60
+852	 	5 S8 1.13 1937-1963:b Sh MF SvPj 7t A (mikrofilm)z Står framme i mikrofilmsläsesalen
+852	 	5 S8 1.23 1937-1955:b Sj 54 Sy Folt B (original)
+866	 	5 S8 1.2a 1937-z 1937-1963: Orig. framtages ejz 2005:3 reklamerasx saknas i den bundna volymenz Påb 070205/bwn
+852	 	5 Sb Sc Lipschutz samlingh 288 Li 4/j P 25x lip2014x inglunz 1968:23, 1969:14, 1973:16, 1986:48, 1988:39852
