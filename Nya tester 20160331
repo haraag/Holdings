@@ -32,11 +32,11 @@ kbv:heldPart
 # Stiftsbiblioteket har eget sigel Lin2, här gjort som underavdelning till Stadsbiblioteket
 # 863 t 38415 verkar vara ett standardnummer (Christer semester denna veck)
 # 863 inte mappat på https://github.com/libris/whelk-core/blob/develop/src/main/resources/ext/marcframe.json
-852	 	5 Lin1b Lin1c Stiftsbiblioteket
-863	 3	5 Lin18 1.1a Årg. 1(1944).t 38415
-863	 3	5 Lin18 1.2a Årg. 2(1945).t 38415
-863	 3	5 Lin18 1.3a Årg. 3(1946).t 38415
-863	 3	5 Lin18 1.4a Årg. 4(1947).t 38415
+852	 	5 Lin1  b Lin1  c Stiftsbiblioteket
+863	 3	5 Lin1  8 1.1a Årg. 1(1944).t 38415
+863	 3	5 Lin1  8 1.2a Årg. 2(1945).t 38415
+863	 3	5 Lin1  8 1.3a Årg. 3(1946).t 38415
+863	 3	5 Lin1  8 1.4a Årg. 4(1947).t 38415
 
 #Exempel 3
 # Gjort efter Niklas exempel, bibframe och https://github.com/libris/whelk-core/blob/develop/src/main/resources/ext/marcframe.json
