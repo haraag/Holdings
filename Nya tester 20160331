@@ -1,1 +1,11 @@
-xx
+<http://id.kb.se/hold/item/40508888 > a kbv:holding;
+kbv:heldBy <https://libris.kb.se/library/Kd> ;
+kbv:holdingFor <http://libris.kb.se/bib/1858131> ;
+bf1:shelfMark " Tidskrifter I Plan 1" ;
+:description " Vol. 1(1976):4-16(1991)" 
+bf1:enumerationAndChronology " Vol. 1(1976):4-16(1991)" 
+
+# Marcpost
+841	 	5 Kda y ab 1409154u 8 1001uu 0901128e 4
+852	8 	5 Kdb Kdh Tidskrifter I Plan 1
+866	 1	5 Kda Vol. 1(1976):4-16(1991)
