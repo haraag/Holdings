@@ -45,6 +45,7 @@ kbv:heldPart
 </pt0tb0rv33gksdj#it(14225535)> a kbv:holding ;
    kbv:heldBy <https://libris.kb.se/library/S> ;
   kbv:holdingFor </http://libris.kb.se/resource/bib/8261414 > ;
+  kbv:heldPart
   [ a item:
     bf1:shelfMark "bP";
     :materialSpecified "1995-: ;
