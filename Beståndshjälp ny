@@ -135,17 +135,17 @@ Länka till auktoriteter i första hand, men det går att skapa en lokal entitet
 För information om vilka delfält som kan läggas till planeras en särskild hjälp för olika typer av agenter.
 
 ### Elektronisk Adress (856)
-* Elektronisk adress / Dokument (val vid Skapa lokal entitet) (856 _/_)
+* Elektronisk adress / Mediaobjekt (val vid Skapa lokal entitet) (856 _/_)
 * Tillhörande media (856 _/0)
-* Annan relaterad resurs (856 _/1)
-* Relaterad till (856 _/2)
-* Är huvudämne för (856 _/8)
+* Annan relaterad resurs / Elektronisk (val vid Skapa lokal entitet) (856 _/1)
+* Är huvudämne för / Dokument (val vid Skapa lokal entitet) (856 _/2)
+* Relaterad till  / Dokument (val vid Skapa lokal entitet) (856 _/8)
   * Värddator (856 ‡a)
   * Elektroniskt namn (856 ‡f)
   * URI (856 ‡u)
   * Katalogisatörens anmärkning (856 ‡x)
   * Länktext (856 ‡y)
-  * Publik anmärkning (856 ‡z)
+  * Offentlig anmärkning (856 ‡z
 
 
 ### Oformaterad beståndsuppgift - huvudpublikation (866)
