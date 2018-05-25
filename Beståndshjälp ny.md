@@ -1,4 +1,6 @@
 *UNDER ARBETE - UPPDATERAS KONTINUERLIGT*
+ OBS! Vi arbetar med Katalogisatörens anmärkning /Intern anmärkning och Offentlig anmärkning/Publik anmärkning - hittar du inte det som beskrivs nedan så prova det andra alternativet.
+
 
 #Beståndsregistrering
 
