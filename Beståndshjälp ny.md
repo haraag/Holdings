@@ -17,7 +17,7 @@ De mest vanliga fälten finns färdiga att fylla i. Det motsvarar vad som kunde 
 [Identifierare](#identifierare)
 [Lokala ämnesord och klassifikation](#lokala ämnesord och klassifikation)
 [Lokalt definierade beståndsfält](#Lokalt definierade beståndsfält)
-[Oformaterad bestådnsuppgift] (#oformaterad beståndsuppgift)
+[Oformaterad bestådnsuppgift](#oformaterad beståndsuppgift)
 
 
 ### Har komponent (852)
