@@ -47,8 +47,10 @@ För att lägga till ytterligare ett bestånd (motsvarande flera 852) klickar du
 ### Adminmetadata
 För enkla monografier behöver vanligen inte Adminmetadata läggas till eller ändras. Information om fält som kan läggas till kommer i en senare version av hjälpen.
 
+För att lägga till information nedan behöver man använda rätt pluss-tecken. Pluss-tecknet i högermenyn lägger till  t.ex.  Identifikator. Från pluss-tecknet till höger om den identifikatortyp som valts väljer man det som motsvarar delfält. 
+
 ### Identifierare
-* IdentifiedBy / Välj från lista (024 indikator 1)
+* Identifikator (IdentifiedBy) / Välj från lista (024 indikator 1)
   * Värde (024 ‡a)
   * Ogiltigt värde (024 ‡z)
   * Typanmärkning, bestämning till indikator 1=7 (024 ‡2)
