@@ -151,7 +151,7 @@ Ospecificerad relation
   * URI (856 ‡u)
   * Katalogisatörens anmärkning (856 ‡x)
   * Länktext (856 ‡y)
-  * Offentlig anmärkning (856 ‡z)
+  * Publik anmärkning (856 ‡z)
   * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (856 ‡3)
 
 
