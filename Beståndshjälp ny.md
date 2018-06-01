@@ -1,6 +1,6 @@
 *UNDER ARBETE - UPPDATERAS KONTINUERLIGT*
 
-OBS! Vi arbetar med Katalogisatörens anmärkning /Intern anmärkning och Offentlig anmärkning/Publik anmärkning - hittar du inte det som beskrivs nedan så prova det andra alternativet.
+OBS! Vi arbetar med Katalogisatörens anmärkning /Intern anmärkning och Publik anmärkning/Offentlig anmärkning - hittar du inte det som beskrivs nedan så prova det andra alternativet. 
 
 
 #Beståndsregistrering
@@ -37,7 +37,7 @@ Många ytterligare fält kan läggas till *Har komponent* - gå till plussteckne
 * Exemplarnummer (852 ‡t)
 * URI (852 ‡u)
 * Katalogisatörens anmärkning (852 ‡x)
-* Har anmäkrning / Publik anmärkning (852 ‡z)
+* Anmärkning (hasNote) / Klicka på pluss-tecknet direkt vid Anmärkning (Note) / Klicka på pilen. Du får då fram fältet Benämning. Skriv in din publika anmärkning (852 ‡z)
 * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (852 ‡3)
 * Underordnad institution/enhet (852 ‡9)
 
