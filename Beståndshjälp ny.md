@@ -2,14 +2,12 @@
 
 OBS! Vi arbetar med Katalogisatörens anmärkning /Intern anmärkning och Publik anmärkning/Offentlig anmärkning - hittar du inte det som beskrivs nedan så prova det andra alternativet. 
 
-
 #Beståndsregistrering
 
 Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när du väljer att lägga bestånd. (852 ‡b)
 
 De mest vanliga fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via plusstecknet för bestånd.
 
-[Adminmetadata](#adminmetada)
 
 ### Har komponent (852)
 Klicka på pilen för *Bestånd*. Du kan då lägga till
