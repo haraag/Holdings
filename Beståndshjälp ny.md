@@ -25,7 +25,7 @@ Om ytterligare information om placering utöver Hyllkod behöver läggas till.
   ```Exempel: 2694```
 
 
-Många ytterligare fält kan läggas till *Har komponent* - gå till plusstecknet vid bestånd.
+Många ytterligare fält kan läggas till *Har komponent* - gå till plusstecknet vid som finns vid beståndet under Har komponent. Där kan du söka upp följande:
 * Tidigare hylluppställning (852 ‡d)
 * Precisering av hyllplacering (852 ‡g)
 * Exemplarstatus (852 ‡i)
@@ -37,7 +37,7 @@ Många ytterligare fält kan läggas till *Har komponent* - gå till plussteckne
 * Exemplarnummer (852 ‡t)
 * URI (852 ‡u)
 * Katalogisatörens anmärkning (852 ‡x)
-* Publik anmärkning (852 ‡z)
+* Har anmäkrning / Publik anmärkning (852 ‡z)
 * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (852 ‡3)
 * Underordnad institution/enhet (852 ‡9)
 
@@ -105,7 +105,7 @@ För enkla monografier behöver vanligen inte Adminmetadata läggas till eller �
 
 ### Lokala ämnesord och klassifikation
 Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
-Hjälp planeras för att skapa ämnesord och genre/form.
+För att lägga till lokalt, se hjälp för att skapa ämnesord och genre/form.
 
 * Lokala ämnesor/rubriker (övriga) (698)
   * Kod (698 ‡a)
@@ -156,8 +156,8 @@ Ospecificerad relation
 
 ### Oformaterad beståndsuppgift - huvudpublikation (866)
 * Benämning (866 ‡a)
-* Intern anmärkning (866 ‡x)
-* Offentlig anmärkning (866 ‡z)
+* Katalogisatörens anmärkning (866 ‡x)
+* Publik anmärkning (866 ‡z)
 * Underordnad institution/enhet (866 ‡9)
 
 ### Exemplarinformation (876-877)
@@ -171,8 +171,8 @@ Ospecificerad relation
   * Tillfällig placering (876 ‡l)
   * Unik exemplarbeteckning (streckkod) (876 ‡p)
   * Exemplarnummer (876 ‡t)
-  * Intern anmärkning (876 ‡x)
-  * Offentlig anmärkning (876 ‡z)
+  * Katalogisatörens anmärkning (876 ‡x)
+  * Publik anmärkning (876 ‡z)
   * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (876 ‡3)
   * Underordnad institution/enhet (876 ‡9)
 
@@ -186,8 +186,8 @@ Ospecificerad relation
   * Tillfällig placering (876 ‡l)
   * Unik exemplarbeteckning (streckkod) (876 ‡p)
   * Exemplarnummer (876 ‡t)
-  * Intern anmärkning (876 ‡x)
-  * Offentlig anmärkning (876 ‡z)
+  * Katalogisatörens anmärkning (876 ‡x)
+  * Publik anmärkning (876 ‡z)
   * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (876 3)
   * Underordnad institution/enhet (876 ‡9)
 
