@@ -73,23 +73,26 @@ Välj önskad nivå:
 ### Anmärkningar
 * Anmärkning/hasNote. Klicka på plusstecknet vid Anmärkning för att lägga till en allmän anmärkning. (500 ‡a)
 
-* Villkor för användning och åtkomst/Villkor som användning och åtkomst (Skapa som lokal entitet)
+* Villkor för användning och åtkomst/Villkor som användning och åtkomst ( val vid Skapa som lokal entitet)
   * Benämning (506 ‡a)
   * Tillsåndsgivare (506 ‡b)
   * Fysiska omständigheter (506 ‡c)
   * Godkända användare (506 ‡d)
-  * Laglig grun för restriktion (506 ‡e)
+  * Laglig grund för restriktion (506 ‡e)
   * Standardiserad terminologi för åtkomstbegränsning (506 ‡f)
   * URI (506 ‡u)
-  * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (506 ‡3)
+  * Del av materialet som avses / Resurs (val vid Skapa somlokal entitet) / Benämning (506 ‡3)
 
-* Innehållsbeskrivning (520)
-  * Sammanfattning av innehåll/Benämning (520 ‡a)
+* Sammanfattning av innehåll (520)
+Klicka på pluss-tecknet för att lägga till. Klicka därefter på pluss-tecknet till höger om sammanfattning för att lägga till delfält.
+  * Benämning (520 ‡a)
   * Utförligare anmärkningstext (520 ‡b)
   * Instans som åsatt anmärkning/etikett (520 ‡c)
   * URI (520 ‡u)
 
-* Förvärvsuppgifter/Förvärvskälla (541 ‡a)
+* Förvärvsuppgifter (541)
+Klicka på pluss-tecknet för att lägga till. gå till Skapa lokal entitet. Förvärvsuppgister kommer då automatiskt.
+  * Förvärvskälla (541 ‡a)
   * Adress (541 ‡b)
   * Förvärvssättt (541 ‡c)
   * Förvärvsdataum (541 ‡d)
