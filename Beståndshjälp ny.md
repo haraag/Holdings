@@ -49,10 +49,18 @@ För enkla monografier behöver vanligen inte Adminmetadata läggas till eller �
   * Fortlöpande (seriell eller integrerande) resurs) (000 [6] y)
   * Monografisk resurs (000 [6] x)
   * Monografisk resurs (1 bibliografisk post med flera delar) (000 [6] v)
+  
+* Beskrivningsnivå (000 [17])
+Välj önskad nivå:
+  * 1 Nivå 1 (grundnivå endast 852). Normalnivå för monografier
+  * 3	Nivå 3 (summariskt bestånd i 853-855 och/eller 86X) (Beståndpost med nivå 3 måste innehålla minst ett fält 866)
+  * 4	Nivå 4 (detaljerat bestånd i 853-855 och/eller 86X)	
+  * 5	Nivå 5 (detaljerat bestånd, inkl. exemplarinformation, i 853-855 och/eller 86X)
+  * z	Annan nivå
 
 * Katalogisatörens anmärkning (599 ‡a)
 
-För att lägga till information nedan behöver man använda rätt pluss-tecken. Pluss-tecknet i högermenyn lägger till  t.ex.  Identifikator. Från pluss-tecknet till höger om den identifikatortyp som valts väljer man det som motsvarar delfält. 
+*För att lägga till information nedan behöver man använda rätt pluss-tecken. Pluss-tecknet i högermenyn lägger till  t.ex.  Identifikator. Från pluss-tecknet till höger om den identifikatortyp som valts väljer man det som motsvarar delfält.* 
 
 ### Identifierare
 * Identifikator (IdentifiedBy) / Välj från lista (024 indikator 1)
