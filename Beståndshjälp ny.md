@@ -42,8 +42,15 @@ Många ytterligare fält kan läggas till *Har komponent* - gå till plussteckne
 För att lägga till ytterligare ett bestånd (motsvarande flera 852) klickar du på plusstecknet vid *Har komponent*.
 
 
+
 ### Adminmetadata
 För enkla monografier behöver vanligen inte Adminmetadata läggas till eller ändras. Information om fält som kan läggas till kommer i en senare version av hjälpen.
+* Posttyp. Om inget val görs blir värdet (000 [6] u). För att ändra värde lägg till Posttyp och välj i lista (000 [6]
+  * Fortlöpande (seriell eller integrerande) resurs) (000 [6] y)
+  * Monografisk resurs (000 [6] x)
+  * Monografisk resurs (1 bibliografisk post med flera delar) (000 [6] v)
+
+* Katalogisatörens anmärkning (599 ‡a)
 
 För att lägga till information nedan behöver man använda rätt pluss-tecken. Pluss-tecknet i högermenyn lägger till  t.ex.  Identifikator. Från pluss-tecknet till höger om den identifikatortyp som valts väljer man det som motsvarar delfält. 
 
@@ -101,7 +108,6 @@ För att lägga till information nedan behöver man använda rätt pluss-tecken.
   * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (583 ‡3)
 
 
-* Katalogisatörens anmärkning (599 ‡a)
 
 ### Lokala ämnesord och klassifikation
 Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
