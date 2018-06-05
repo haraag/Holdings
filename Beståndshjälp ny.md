@@ -1,6 +1,5 @@
 *UNDER ARBETE - UPPDATERAS KONTINUERLIGT*
 
-OBS! Vi arbetar med Katalogisatörens anmärkning /Intern anmärkning och Publik anmärkning/Offentlig anmärkning - hittar du inte det som beskrivs nedan så prova det andra alternativet. 
 
 #Beståndsregistrering
 
@@ -60,7 +59,7 @@ Välj önskad nivå:
 
 * Katalogisatörens anmärkning (599 ‡a)
 
-*För att lägga till information nedan behöver man använda rätt pluss-tecken. Pluss-tecknet i högermenyn lägger till  t.ex.  Identifikator. Från pluss-tecknet till höger om den identifikatortyp som valts väljer man det som motsvarar delfält.* 
+_*För att lägga till information nedan behöver man använda rätt pluss-tecken. Pluss-tecknet i högermenyn lägger till  t.ex.  Identifikator. Från pluss-tecknet till höger om den identifikatortyp som valts väljer man det som motsvarar delfält.*_ 
 
 ### Identifierare
 * Identifikator (IdentifiedBy) / Välj från lista (024 indikator 1)
@@ -112,9 +111,11 @@ Klicka på pluss-tecknet för att lägga till. gå till Skapa lokal entitet. Fö
 
 
 * Har lokal anmärkning: Bokband (563)
+Klicka på pluss-tecknet för att lägga till. Klicka därefter på pluss-tecknet till höger om Lokal anmärkning: Bokband för att lägga till delfält.
   * Benämning (563 ‡a)
 
 * Har lokal anmärkning: Åtgärd (583=)
+Klicka på pluss-tecknet för att lägga till. Klicka därefter på pluss-tecknet till höger om Lokal anmärkning: Åtgärd för att lägga till delfält
   * Benämning (583 ‡a)
   * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (583 ‡3)
 
@@ -144,6 +145,10 @@ Länka till auktoriteter i första hand, men det går att skapa en lokal entitet
   * Organisation / Namn / Funktion (710 2/_)
 För information om vilka delfält som kan läggas till planeras en särskild hjälp för olika typer av agenter.
 
+  * Funktion - lägg till vid pluss-tecknet till höger om Medverkan (700 ‡4)
+    Länka till entitet. Sök på kod eller term
+    ```Exempel: relator/fmo (=Tidigare ägare)```
+
 ### Elektronisk Adress (856)
 Defaultvärde för indikator 1 är 4 - http.
 * Elektronisk adress / Mediaobjekt (val vid Skapa lokal entitet) (856 4/_)
@@ -166,7 +171,7 @@ Ospecificerad relation
   * URI (856 ‡u)
   * Katalogisatörens anmärkning (856 ‡x)
   * Länktext (856 ‡y)
-  * Publik anmärkning (856 ‡z)
+  * Offentlig anmärkning (856 ‡z)
   * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (856 ‡3)
 
 
@@ -174,7 +179,7 @@ Ospecificerad relation
 ### Oformaterad beståndsuppgift - huvudpublikation (866)
 * Benämning (866 ‡a)
 * Katalogisatörens anmärkning (866 ‡x)
-* Publik anmärkning (866 ‡z)
+* Offentlig anmärkning (866 ‡z)
 * Underordnad institution/enhet (866 ‡9)
 
 ### Exemplarinformation (876-877)
@@ -189,7 +194,7 @@ Ospecificerad relation
   * Unik exemplarbeteckning (streckkod) (876 ‡p)
   * Exemplarnummer (876 ‡t)
   * Katalogisatörens anmärkning (876 ‡x)
-  * Publik anmärkning (876 ‡z)
+  * Offentlig anmärkning (876 ‡z)
   * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (876 ‡3)
   * Underordnad institution/enhet (876 ‡9)
 
@@ -204,7 +209,7 @@ Ospecificerad relation
   * Unik exemplarbeteckning (streckkod) (876 ‡p)
   * Exemplarnummer (876 ‡t)
   * Katalogisatörens anmärkning (876 ‡x)
-  * Publik anmärkning (876 ‡z)
+  * Offentlig anmärkning (876 ‡z)
   * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (876 3)
   * Underordnad institution/enhet (876 ‡9)
 
