@@ -1,4 +1,3 @@
-*UNDER ARBETE - UPPDATERAS KONTINUERLIGT*
 
 
 #Beståndsregistrering
