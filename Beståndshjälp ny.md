@@ -1,6 +1,6 @@
 
 
-#Beståndsregistrering
+# Beståndsregistrering
 
 Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när du väljer att lägga bestånd. (852 ‡b)
 
