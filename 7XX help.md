@@ -34,7 +34,7 @@ Välj **Medverkan** när en agent har en relation till det verk som beskrivs i i
   * Funktion - lägg till vid **+ikonen** vid **Medverkan** (700 ‡4)
     Länka till entitet.
     
-    ```Exempel: relator/trl (= översättare)```
+   ``Exempel: relator/trl (= översättare)```
     
 #### Relation uttryckt genom **Relation** (700 ‡i)
 Välj **Relation** vid **+ikonen** vid **Verk**
@@ -54,6 +54,8 @@ Vid **+ikonen** för **Verk** lägger man till delfält:
   ```Exempel: Pride and prejudice```
  
 *  Medverkande och funktion / Primär medverkan
+
+
 Välj **Primär medverkan** när en agent har en relation till verk som beskrivs som relaterat.
 
    * Medverkan och contribution / Primär contribution / Agent/ Person (700 1/_ ‡a  ǂd )
