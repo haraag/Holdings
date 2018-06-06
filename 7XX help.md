@@ -9,13 +9,18 @@ Den här hjälpen visar hur man skapar relationer av olika typer. Se även hjäl
 
 ### Relationer
 Medverkande och funktion
-Välj *Medverkan* när en agent har en relation till det verk som beskrivs i instansen.
+Välj **Medverkan** när en agent har en relation till det verk som beskrivs i instansen.
 * Medverkan och funktion / Medverkan / Agent / Person (700 1/- ‡a)
     Länka till entitet.
     I undantagsfall, skapa lokal entitet och välj Person
-  ```Exempel: Andersson, Frans, 1962-```
+   * Lägg till Efternamn
+  ```Exempel: Andersson```
+   * Förnamn
+   ```Exempel: Frans```
+   * Levnadsår
+    ```Exempel: 1974-```
 
-  * Funktion - lägg till vid Medverkan (700 ‡4)
+  * Funktion - lägg till vid **+ikonen** bif **Medverkan** (700 ‡4)
     Länka till entitet.
     ```Exempel: relator/trl (= översättare)```
 
@@ -23,16 +28,30 @@ Välj *Medverkan* när en agent har en relation till det verk som beskrivs i ins
 
 #### Flera verk kopplade till instansen
 Primär medverkan
-Välj *Primär medverkn* när agenten har relation till ett annat verk än det som beskrivs i instansen
-* Har del / skapa lokal entitet - välj Verk (långt ner i listan - blir lättare när man kommer att kunna länka till verk)
+Välj **Primär medverkan** när agenten har relation till ett annat verk än det som beskrivs i instansen
+* Har del / skapa lokal entitet - välj Verk (långt ner i listan, ge inte upp! - i senare versioner kommer vi att förenkla detta.)
   * Har titel / Huvudtitel  - skriv in titeln
-  ```Exempel: Forellkvintetten```
-  Fler delfält att lägga till:
+  ```Exempel:  Mind over matter```
+  
+  Fler delfält att lägga till vid **+ikonen** för **Titeln** som rör titeln:
+  * Specificering i form av grupptitel (700 ‡k)
+  * Delbeteckning (700 ‡n)
+  * Deltitel (700 ‡p)
+  
+  Fler delfält att lägga till vid **+ikonen** för **Verk** som rör titeln:
+    * Tid för verket (700 ‡f)
     * Språk  / Benämning (700 ‡l)
-    *(700 ‡m)
-    (700 ‡o)
-    (700 ‡r)
-    (700 ‡s)
+    * Besättning för framförande (700 ‡m) *Under utveckling*
+    * Version (700 ‡o)
+    * Tonart (700 ‡r)
+    * (700 ‡s) *Under utveckling*
+    
 
-  * Medverkan och contribution / Primär contribution / Agent
-  ````Exempel: Schubert, Franz , 1797-1828
+  * Medverkan och contribution / Primär contribution / Agent/ Person
+  
+  Efternamn
+  ```Exempel: Roberts```
+   Medverkan och contribution / Primär contribution / Agent/ Förnamn
+   ```Exempel: Nora```
+   
+  
