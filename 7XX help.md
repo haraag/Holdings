@@ -21,6 +21,7 @@ Medverkande och funktion / Medverkan
 
 Välj **Medverkan** när en agent har en relation till det verk som beskrivs i instansen.
 * Medverkan och funktion / Medverkan / Agent / Person (700 1/- ‡a)
+    
     Länka till entitet.
     I undantagsfall, skapa lokal entitet och välj Person
    * Lägg till Efternamn
