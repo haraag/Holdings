@@ -20,12 +20,15 @@ Välj **Medverkan** när en agent har en relation till det verk som beskrivs i i
     Länka till entitet.
     I undantagsfall, skapa lokal entitet och välj Person
    * Lägg till Efternamn
+   
    ```Exempel: Andersson```
   
    * Förnamn
+   
    ```Exempel: Frans```
    
    * Levnadsår
+   
     ```Exempel: 1974-```
 
   * Funktion - lägg till vid **+ikonen** vid **Medverkan** (700 ‡4)
@@ -42,16 +45,21 @@ Välj **Entitet** vid **+ikonen** vid **Relation**
 
 Lägg till **Verk** som entitet. 
 Vid **+ikonen** för **Verk** lägger man till delfält:
-*  Benämning 
+*  Benämning
+
   ```Exempel: Parafraserar```
   
  *  Har titel/ Titel / Huvudtitel
+ 
   ```Exempel: Pride and prejudice```
  
 *  Medverkande och funktion / Primär medverkan
 Välj **Primär medverkan** när en agent har en relation till verk som beskrivs som relaterat.
+
    * Medverkan och contribution / Primär contribution / Agent/ Person (700 1/_ ‡a  ǂd )
+   
  Länka i första hand till auktoriet.
+ 
  ```Exempel: Austin,  Jane, 1775-1817```
 
 
