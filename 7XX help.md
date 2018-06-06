@@ -5,9 +5,10 @@ Länka i första hand till befintliga auktioriteter för personer, organisatione
 I den första versionen av Nya Libris bör man inte länka till eller skapa verk.
 Den här hjälpen visar hur man skapar relationer av olika typer. Se även hjälp för att lägga till Agenter - Personer samt Organisationer
 
-
+Lägg till under **Instans av verk**
 
 ### Relationer
+#### Relation uttryckt som **Funktion**
 Medverkande och funktion / Medverkan
 Välj **Medverkan** när en agent har en relation till det verk som beskrivs i instansen.
 * Medverkan och funktion / Medverkan / Agent / Person (700 1/- ‡a)
@@ -26,6 +27,23 @@ Välj **Medverkan** när en agent har en relation till det verk som beskrivs i i
     Länka till entitet.
     
     ```Exempel: relator/trl (= översättare)```
+    
+#### Relation uttryckt genom **Relation** (700 ‡i)
+Välj **Relation** vid **+ikonen** vid **Verk**
+Välj typ **Relation** i menyn
+Välj **Entitet** vid **+ikonen** vid **Relation**
+Lägg till **Verk** som entitet.
+Benämning 
+  ```Exempel: Parafraserar```
+ Har titel/ Titel / Huvudtitel
+  ```Exempel: Pride and prejudice```
+ 
+Medverkande och funktion / Primär medverkan
+Välj **Primär medverkan** när en agent har en relation till verk som beskrivs som relaterat.
+ * Medverkan och contribution / Primär contribution / Agent/ Person (700 1/_ ‡a  ǂd )
+ Länka i första hand till auktoriet.
+ ```Exempel: Austin,  Jane, 1775-1817```
+
 
 
 
@@ -52,6 +70,7 @@ Välj **Primär medverkan** när agenten har relation till ett annat verk än de
     * (700 ‡s) *Under utveckling*
     
 
+  
   * Medverkan och contribution / Primär contribution / Agent/ Person
   
   Efternamn
