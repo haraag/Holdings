@@ -4,11 +4,11 @@
 
 Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när du väljer att lägga bestånd. (852 ‡b)
 
-De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via * +ikonen * för bestånd.
+De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via **+ikonen** för bestånd.
 
 
 ### Har komponent (852)
-Klicka på pilen för *Bestånd*. Du kan då lägga till
+Klicka på pilen för **Bestånd**. Du kan då lägga till
 * Hyllkod (852 ‡h)
 Här lägger du uppställning efter klassifikation eller annan hyllkod
   ```Exempel: 158.1```
@@ -21,7 +21,7 @@ Om ytterligare information om placering utöver Hyllkod behöver läggas till.
   ```Exempel: 2694```
 
 
-Många ytterligare fält kan läggas till *Har komponent* - gå till * vid som finns vid beståndet under Har komponent. Där kan du söka upp följande:
+Många ytterligare fält kan läggas till **Har komponent** - gå till **?ikonen** vid beståndet under **Har komponent**. Där kan du söka upp följande:
 * Tidigare hylluppställning (852 ‡d)
 * Precisering av hyllplacering (852 ‡g)
 * Exemplarstatus (852 ‡i)
@@ -37,12 +37,12 @@ Många ytterligare fält kan läggas till *Har komponent* - gå till * vid som f
 * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (852 ‡3)
 * Underordnad institution/enhet (852 ‡9)
 
-För att lägga till ytterligare ett bestånd (motsvarande flera 852) klickar du på plusstecknet vid *Har komponent*.
+För att lägga till ytterligare ett bestånd (motsvarande flera 852) klickar du på **+ikonen**  vid **Har komponent**.
 
 
 
 ### Adminmetadata
-För enkla monografier behöver vanligen inte Adminmetadata läggas till eller ändras. Information om fält som kan läggas till kommer i en senare version av hjälpen.
+För enkla monografier behöver vanligen inte Adminmetadata läggas till eller ändras. Hör av dig till Supportforumet du saknar möjlighet att lägga till Adminmetadata som. ditt bibliotek behöver
 * Posttyp. Om inget val görs blir värdet (000 [6] u). För att ändra värde lägg till Posttyp och välj i lista (000 [6]
   * Fortlöpande (seriell eller integrerande) resurs) (000 [6] y)
   * Monografisk resurs (000 [6] x)
@@ -58,7 +58,7 @@ Välj önskad nivå:
 
 * Katalogisatörens anmärkning (599 ‡a)
 
-_*För att lägga till information nedan behöver man använda rätt pluss-tecken. Pluss-tecknet i högermenyn lägger till  t.ex.  Identifikator. Från pluss-tecknet till höger om den identifikatortyp som valts väljer man det som motsvarar delfält.*_ 
+*För att lägga till information nedan behöver man använda rätt **+ikon**. **+ikonen** i högermenyn lägger till  t.ex.  Identifikator. Från **+ikonen** till höger om den identifikatortyp som valts väljer man det som motsvarar delfält.* 
 
 ### Identifierare
 * Identifikator (IdentifiedBy) / Välj från lista (024 indikator 1)
@@ -71,7 +71,7 @@ _*För att lägga till information nedan behöver man använda rätt pluss-tecke
 ### Anmärkningar
 * Anmärkning/hasNote. Klicka på plusstecknet vid Anmärkning för att lägga till en allmän anmärkning. (500 ‡a)
 
-* Villkor för användning och åtkomst/Villkor som användning och åtkomst ( val vid Skapa som lokal entitet)
+* Villkor för användning och åtkomst/Villkor som användning och åtkomst (val vid Skapa som lokal entitet)
   * Benämning (506 ‡a)
   * Tillsåndsgivare (506 ‡b)
   * Fysiska omständigheter (506 ‡c)
@@ -79,17 +79,17 @@ _*För att lägga till information nedan behöver man använda rätt pluss-tecke
   * Laglig grund för restriktion (506 ‡e)
   * Standardiserad terminologi för åtkomstbegränsning (506 ‡f)
   * URI (506 ‡u)
-  * Del av materialet som avses / Resurs (val vid Skapa somlokal entitet) / Benämning (506 ‡3)
+  * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (506 ‡3)
 
 * Sammanfattning av innehåll (520)
-Klicka på pluss-tecknet för att lägga till. Klicka därefter på pluss-tecknet till höger om sammanfattning för att lägga till delfält.
+Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** till höger om sammanfattning för att lägga till delfält.
   * Benämning (520 ‡a)
   * Utförligare anmärkningstext (520 ‡b)
   * Instans som åsatt anmärkning/etikett (520 ‡c)
   * URI (520 ‡u)
 
 * Förvärvsuppgifter (541)
-Klicka på pluss-tecknet för att lägga till. gå till Skapa lokal entitet. Förvärvsuppgister kommer då automatiskt.
+Klicka på **+ikonen** för att lägga till. Gå till Skapa lokal entitet. Förvärvsuppgister kommer då automatiskt.
   * Förvärvskälla (541 ‡a)
   * Adress (541 ‡b)
   * Förvärvssättt (541 ‡c)
@@ -110,11 +110,11 @@ Klicka på pluss-tecknet för att lägga till. gå till Skapa lokal entitet. Fö
 
 
 * Har lokal anmärkning: Bokband (563)
-Klicka på pluss-tecknet för att lägga till. Klicka därefter på pluss-tecknet till höger om Lokal anmärkning: Bokband för att lägga till delfält.
+Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** till höger om Lokal anmärkning: Bokband för att lägga till delfält.
   * Benämning (563 ‡a)
 
 * Har lokal anmärkning: Åtgärd (583=)
-Klicka på pluss-tecknet för att lägga till. Klicka därefter på pluss-tecknet till höger om Lokal anmärkning: Åtgärd för att lägga till delfält
+Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** till höger om Lokal anmärkning: Åtgärd för att lägga till delfält
   * Benämning (583 ‡a)
   * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (583 ‡3)
 
@@ -122,7 +122,7 @@ Klicka på pluss-tecknet för att lägga till. Klicka därefter på pluss-teckne
 
 ### Lokala ämnesord och klassifikation
 Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
-För att lägga till lokalt, se hjälp för att skapa ämnesord och genre/form.
+För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och genre/form.
 
 * Lokala ämnesor/rubriker (övriga) (698)
   * Kod (698 ‡a)
@@ -144,12 +144,12 @@ Länka till auktoriteter i första hand, men det går att skapa en lokal entitet
   * Organisation / Namn / Funktion (710 2/_)
 För information om vilka delfält som kan läggas till planeras en särskild hjälp för olika typer av agenter.
 
-  * Funktion - lägg till vid pluss-tecknet till höger om Medverkan (700 ‡4)
+  * Funktion - lägg till vid **+ikonen** till höger om Medverkan (700 ‡4)
     Länka till entitet. Sök på kod eller term
     ```Exempel: relator/fmo (=Tidigare ägare)```
 
 ### Elektronisk Adress (856)
-Defaultvärde för indikator 1 är 4 - http.
+Defaultvärde för indikator 1 är 4 (http).
 * Elektronisk adress / Mediaobjekt (val vid Skapa lokal entitet) (856 4/_)
 Ingen information om relation mellan den elektroniska resursen och bibliografiska resurs som beskrivis
 
@@ -183,7 +183,7 @@ Ospecificerad relation
 
 ### Exemplarinformation (876-877)
 * Har exemplarinformation - huvudpublikation etc. (876)
-  *  Internt exemplarnummer (876 ‡a)
+  * Internt exemplarnummer (876 ‡a)
   * Ogiltigt/makulerat intern exemplarnummer (876 ‡b)
   * Förvärvspris (876 ‡c)
   * Förvärvsdatum (876 ‡d)
