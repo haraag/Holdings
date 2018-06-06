@@ -21,7 +21,7 @@ Om ytterligare information om placering utöver Hyllkod behöver läggas till.
   ```Exempel: 2694```
 
 
-Många ytterligare fält kan läggas till **Har komponent** - gå till **?ikonen** vid beståndet under **Har komponent**. Där kan du söka upp följande:
+Många ytterligare fält kan läggas till **Har komponent** - gå till **+ikonen** vid beståndet under **Har komponent**. Där kan du söka upp följande:
 * Tidigare hylluppställning (852 ‡d)
 * Precisering av hyllplacering (852 ‡g)
 * Exemplarstatus (852 ‡i)
