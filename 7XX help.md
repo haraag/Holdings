@@ -8,29 +8,34 @@ Den här hjälpen visar hur man skapar relationer av olika typer. Se även hjäl
 
 
 ### Relationer
-Medverkande och funktion
+Medverkande och funktion / Medverkan
 Välj **Medverkan** när en agent har en relation till det verk som beskrivs i instansen.
 * Medverkan och funktion / Medverkan / Agent / Person (700 1/- ‡a)
     Länka till entitet.
     I undantagsfall, skapa lokal entitet och välj Person
    * Lägg till Efternamn
-  ```Exempel: Andersson```
+   ```Exempel: Andersson```
+  
    * Förnamn
    ```Exempel: Frans```
+   
    * Levnadsår
     ```Exempel: 1974-```
 
-  * Funktion - lägg till vid **+ikonen** bif **Medverkan** (700 ‡4)
+  * Funktion - lägg till vid **+ikonen** vid **Medverkan** (700 ‡4)
     Länka till entitet.
+    
     ```Exempel: relator/trl (= översättare)```
 
 
 
 #### Flera verk kopplade till instansen
-Primär medverkan
+ Medverkan och funktion / Primär medverkan
 Välj **Primär medverkan** när agenten har relation till ett annat verk än det som beskrivs i instansen
+
 * Har del / skapa lokal entitet - välj Verk (långt ner i listan, ge inte upp! - i senare versioner kommer vi att förenkla detta.)
   * Har titel / Huvudtitel  - skriv in titeln
+  
   ```Exempel:  Mind over matter```
   
   Fler delfält att lägga till vid **+ikonen** för **Titeln** som rör titeln:
