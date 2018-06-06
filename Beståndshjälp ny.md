@@ -4,7 +4,7 @@
 
 Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när du väljer att lägga bestånd. (852 ‡b)
 
-De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via plusstecknet för bestånd.
+De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via * +ikonen * för bestånd.
 
 
 ### Har komponent (852)
@@ -21,7 +21,7 @@ Om ytterligare information om placering utöver Hyllkod behöver läggas till.
   ```Exempel: 2694```
 
 
-Många ytterligare fält kan läggas till *Har komponent* - gå till plusstecknet vid som finns vid beståndet under Har komponent. Där kan du söka upp följande:
+Många ytterligare fält kan läggas till *Har komponent* - gå till * vid som finns vid beståndet under Har komponent. Där kan du söka upp följande:
 * Tidigare hylluppställning (852 ‡d)
 * Precisering av hyllplacering (852 ‡g)
 * Exemplarstatus (852 ‡i)
