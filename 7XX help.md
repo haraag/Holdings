@@ -1,7 +1,12 @@
-## Verk
+*UNDER ARBETE*
+
+
+## Relationer till agenter, delar och verk (7XX)
 
 700, 710 och 711 är komplicerade fält i MARC21 som kan uttrycka olika saker om en agent, medverkande, relationer, och att en instans innehåller flera verk.
+
 Länka i första hand till befintliga auktioriteter för personer, organisationer och möten. Om det inte finns en auktoritet så kan du skapa en auktoritet. Se hjälpen för att Skapa ny agent Person samt Organisation. Det finns även hjälp för att redigera befintliga auktoriteter.
+
 I den första versionen av Nya Libris bör man inte länka till eller skapa verk.
 Den här hjälpen visar hur man skapar relationer av olika typer. Se även hjälp för att lägga till Agenter - Personer samt Organisationer
 
@@ -35,17 +40,17 @@ Välj typ **Relation** i menyn
 
 Välj **Entitet** vid **+ikonen** vid **Relation**
 
-Lägg till **Verk** som entitet.
-
-Benämning 
+Lägg till **Verk** som entitet. 
+Vid **+ikonen** för **Verk** lägger man till delfält:
+*  Benämning 
   ```Exempel: Parafraserar```
   
- Har titel/ Titel / Huvudtitel
+ *  Har titel/ Titel / Huvudtitel
   ```Exempel: Pride and prejudice```
  
-Medverkande och funktion / Primär medverkan
+*  Medverkande och funktion / Primär medverkan
 Välj **Primär medverkan** när en agent har en relation till verk som beskrivs som relaterat.
- * Medverkan och contribution / Primär contribution / Agent/ Person (700 1/_ ‡a  ǂd )
+   * Medverkan och contribution / Primär contribution / Agent/ Person (700 1/_ ‡a  ǂd )
  Länka i första hand till auktoriet.
  ```Exempel: Austin,  Jane, 1775-1817```
 
