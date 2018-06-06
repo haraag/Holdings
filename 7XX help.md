@@ -69,7 +69,7 @@ Välj **Primär medverkan** när en agent har en relation till verk som beskrivs
 
    * Medverkan och contribution / Primär contribution / Agent/ Person (700 1/_ ‡a  ǂd )
    
- Länka i första hand till auktoriet.
+ Länka i första hand till auktoritet.
  
  ```Exempel: Austin,  Jane, 1775-1817```
 
