@@ -34,9 +34,10 @@ Välj **Medverkan** när en agent har en relation till det verk som beskrivs i i
   * Funktion - lägg till vid **+ikonen** vid **Medverkan** (700 ‡4)
     Länka till entitet.
     
-   ``Exempel: relator/trl (= översättare)```
+   ```Exempel: relator/trl (= översättare)```
     
 #### Relation uttryckt genom **Relation** (700 ‡i)
+
 Välj **Relation** vid **+ikonen** vid **Verk**
 
 Välj typ **Relation** i menyn
