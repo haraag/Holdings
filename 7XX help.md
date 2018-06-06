@@ -40,6 +40,9 @@ Välj **Medverkan** när en agent har en relation till det verk som beskrivs i i
     
    ```Exempel: relator/trl (= översättare)```
     
+
+
+
 #### Relation uttryckt genom **Relation** (700 ‡i)
 
 Välj **Relation** vid **+ikonen** vid **Verk**
@@ -74,6 +77,8 @@ Välj **Primär medverkan** när en agent har en relation till verk som beskrivs
 
 #### Flera verk kopplade till instansen
  Medverkan och funktion / Primär medverkan
+
+
 Välj **Primär medverkan** när agenten har relation till ett annat verk än det som beskrivs i instansen
 
 * Har del / skapa lokal entitet - välj Verk (långt ner i listan, ge inte upp! - i senare versioner kommer vi att förenkla detta.)
