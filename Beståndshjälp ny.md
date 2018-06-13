@@ -1,4 +1,4 @@
-*UNDER ARBETE*
+*UNDER ARBETE - UPPDATERAS KONTIUNUERLIGT (uppdaterad 2018-06-05)*
 
 # Beståndsregistrering
 
@@ -129,7 +129,10 @@ För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och ge
   * Benämning (698 ‡b)
 
 * Klassifikation/DDK-klassifikation/Kod (082 ‡a)
-  * Klassifikationsupplaga (082 ‡2) Skriv in 23/sw
+  * Klassifikationsupplaga (082 indikator 1). Vanligen fullständig upplaga.
+  ```Skriv in: full```
+  * Utgåvans nummer och upphov (082 ‡2)
+  ```Skriv in: 23/swe```
 
 * Klassifikation/Klassifikation/Kod (084 ‡a)
 
@@ -176,7 +179,8 @@ Ospecificerad relation
 
 
 ### Oformaterad beståndsuppgift - huvudpublikation (866)
-* Benämning (866 ‡a)
+*OBS! Ta inte bort de "tomma" fälten Marc:holdingsLevel samt Marc:typeOfNotation! I mallen finns ett blanksteg med som behövs för att få med värden i indikator 1 och 2. För att ändra från "ej angiven/saknas" måste blanktecknet först tas bort och därefter rätt siffra skrivas in. Detta är en temporär lösning på problemet med att 866 inte exporterades.*
+* Beståndsuppgift (866 ‡a)
 * Katalogisatörens anmärkning (866 ‡x)
 * Offentlig anmärkning (866 ‡z)
 * Underordnad institution/enhet (866 ‡9)
@@ -198,7 +202,7 @@ Ospecificerad relation
   * Underordnad institution/enhet (876 ‡9)
 
 * Har exemplarinformation - bihang etc. (877)
-  *  Internt exemplarnummer (877 ‡a)
+  * Internt exemplarnummer (877 ‡a)
   * Ogiltigt/makulerat intern exemplarnummer (877 ‡b)
   * Förvärvspris (877 ‡c)
   * Förvärvsdatum (876 ‡d)
