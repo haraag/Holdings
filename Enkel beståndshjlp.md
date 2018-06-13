@@ -24,7 +24,7 @@ För att lägga till ytterligare ett bestånd (motsvarande flera 852) klickar du
 * Oformaterad beståndsuppgift - huvudpublikation (866)
 *OBS! Ta inte bort de "tomma" fälten Marc:holdingsLevel samt Marc:typeOfNotation! I mallen finns ett blanksteg med som behövs för att få med värden i indikator 1 och 2. För att ändra från "ej angiven/saknas" måste blanktecknet först tas bort och därefter rätt siffra skrivas in. Detta är en temporär lösning på problemet med att 866 inte exporterades.*
 
-Beståndsuppgift (866 ‡a)
-Katalogisatörens anmärkning (866 ‡x)
-Offentlig anmärkning (866 ‡z)
-Underordnad institution/enhet (866 ‡9)
+  * Beståndsuppgift (866 ‡a)
+  * Katalogisatörens anmärkning (866 ‡x)
+  * Offentlig anmärkning (866 ‡z)
+  * Underordnad institution/enhet (866 ‡9)
