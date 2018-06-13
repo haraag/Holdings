@@ -10,14 +10,17 @@ De mest vanliga fälten finns färdiga att fylla i. Det motsvarar vad som kunde 
 Klicka på pilen för *Bestånd*. Du kan då lägga till:
 * Hyllkod (852 ‡h)
 Här lägger du uppställning efter klassifikation eller annan hyllkod
-Exempel: 158.1
+
+ ```Exempel: 158.1```
 
 * Hyllplacering (Avdelning,samling) (852 ‡c)
 Om ytterligare information om placering utöver Hyllkod behöver läggas till.
-Exempel: Institution 140
+
+ ```Exempel: Institution 14```
 
 * Hyllsignum: Löpnummer (852 ‡j)
-Exempel: 2694
+
+ ```Exempel: 2594```
 
 För att lägga till ytterligare ett bestånd (motsvarande flera 852) klickar du på plusstecknet vid *Har komponent*.
 
