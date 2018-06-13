@@ -27,7 +27,7 @@ Många ytterligare fält kan läggas till **Har komponent** - gå till **+ikonen
 * Exemplarstatus (852 ‡i)
 * Prefix för lokalsignum (852 ‡k)
 * Hyllsignum: uppställningsord (852 ‡l)
-* Prefix för lokalsignum (852 ‡m)
+* Sufffix för lokalsignum (852 ‡m)
 * Unik exemplarbeteckning (streckkod) (852 ‡p)
 * Exemplarets fysiska tillstånd (852 ‡q)
 * Exemplarnummer (852 ‡t)
