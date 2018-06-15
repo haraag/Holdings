@@ -102,7 +102,7 @@ Välj **Primär medverkan** när agenten har relation till ett annat verk än de
  
 
   Lägg därefter till Agenten:
-  * Medverkan och contribution / Primär contribution / Agent/ Person
+  * Medverkan och medverkan / Primär medverkan / Agent/ Person
   
   Länka i första hand. För att lägga till som lokal entitet:
   
