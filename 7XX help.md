@@ -13,7 +13,7 @@ Den här hjälpen visar hur man skapar relationer av olika typer. Se även hjäl
 Lägg till under **Instans av verk**
 
 ### Relationer
-#### Relation uttryckt som **Funktion**
+#### Relation uttryckt som **Funktion** (‡4)
 
 Medverkande och funktion / Medverkan
 
@@ -67,7 +67,7 @@ Vid **+ikonen** för **Verk** lägger man till delfält:
 
 Välj **Primär medverkan** när en agent har en relation till verk som beskrivs som relaterat.
 
-   * Medverkan och contribution / Primär contribution / Agent/ Person (700 1/_ ‡a  ǂd )
+   * Medverkan och funktion / Primär medverkan / Agent/ Person (700 1/_ ‡a  ǂd )
    
  Länka i första hand till auktoritet.
  
@@ -77,7 +77,7 @@ Välj **Primär medverkan** när en agent har en relation till verk som beskrivs
 
 
 #### Flera verk kopplade till instansen
- Medverkan och funktion / Primär medverkan
+ Medverkan och funktion / Har del / Primär medverkan
 
 
 Välj **Primär medverkan** när agenten har relation till ett annat verk än det som beskrivs i instansen
@@ -106,9 +106,9 @@ Välj **Primär medverkan** när agenten har relation till ett annat verk än de
   
   Länka i första hand. För att lägga till som lokal entitet:
   
-    * Medverkan och contribution / Primär contribution / Agent/ PersonEfternamn
+    * Medverkan och funktion / Primär medverkan/ Agent/ PersonEfternamn
   ```Exempel: Roberts```
-     * Medverkan och contribution / Primär contribution / Agent/ Förnamn
+     * Medverkan och funktion / Primär medverkan / Agent/ Förnamn
    ```Exempel: Nora```
    
   
