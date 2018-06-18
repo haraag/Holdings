@@ -8,6 +8,7 @@
 Länka i första hand till befintliga auktioriteter för personer, organisationer och möten. Om det inte finns en auktoritet så kan du skapa en auktoritet. Se hjälpen för att Skapa ny agent Person samt Organisation. Det finns även hjälp för att redigera befintliga auktoriteter.
 
 I den första versionen av Nya Libris bör man inte länka till eller skapa verk.
+
 Den här hjälpen visar hur man skapar relationer av olika typer. Se även hjälp för att lägga till Agenter - Personer samt Organisationer
 
 Lägg till under **Instans av verk**
@@ -44,7 +45,8 @@ Välj **Medverkan** när en agent har en relation till det verk som beskrivs i i
 
 
 
-#### Relation uttryckt genom **Relation** (700 ‡i)
+#### Relation till verk uttryckt genom text (700 ‡i)
+*Det finns fasta termer i RDA för att uttrycka en relation till ett verk och som motsvarar delfält i i Exportformatet. Det är ännu inte möjligt att länka till dessa i Nya Libris. Svensk översättning för relationerna behöver gås igen.*
 
 Välj **Relation** vid **+ikonen** vid **Verk**
 
@@ -74,6 +76,33 @@ Välj **Primär medverkan** när en agent har en relation till verk som beskrivs
  ```Exempel: Austin,  Jane, 1775-1817```
 
 
+#### Obestämt relation till ett verk (700)
+Om relationen är viktig att beskriva och inte kan beskrivas på annat sätt, gör en allmän anmärkning (500 ‡a)
+
+* Anmärkning (hasNote) Bygger på förf:s diss. med titeln: En sund själ i en sund kropp : hälsopolitik i Stockholms folkskolor 1880-1930
+
+Välj **Relation** vid **+ikonen** vid **Verk**
+
+Välj typ **Relation** i menyn
+
+Välj **Entitet** vid **+ikonen** vid **Relation**
+
+Lägg till **Verk** som entitet. 
+
+*  Har titel/ Titel / Huvudtitel
+ 
+  ```Exempel: En sund själ i en sund kropp```
+ 
+*  Medverkande och funktion / Primär medverkan
+
+
+Välj **Primär medverkan** när en agent har en relation till verk som beskrivs som relaterat.
+
+   * Medverkan och funktion / Primär medverkan / Agent/ Person (700 1/_ ‡a  ǂd )
+   
+ Länka i första hand till auktoritet.
+ 
+ ```Exempel: Hammarberg, Lena, 1943-```
 
 
 #### Flera verk kopplade till instansen
