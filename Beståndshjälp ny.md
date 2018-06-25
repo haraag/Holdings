@@ -24,7 +24,7 @@ Om ytterligare information om placering utöver Hyllkod behöver läggas till.
 Många ytterligare fält kan läggas till **Har komponent** - gå till **+ikonen** vid beståndet under **Har komponent**. Där kan du söka upp följande:
 * Tidigare hylluppställning (852 ‡d)
 * Precisering av hyllplacering (852 ‡g)
-* Exemplarstatus (852 ‡i)
+* Exemplarstatus / Klicka på **+ikonen** vid **Exemplarstatus** / Klicka på **Skapa lokal entitet** - du får då ett nytt fält Exemplarstatus där du vid denna **+ikon** kan välja **Benämning**  (852 ‡i)
 * Prefix för lokalsignum (852 ‡k)
 * Hyllsignum: uppställningsord (852 ‡l)
 * Sufffix för lokalsignum (852 ‡m)
