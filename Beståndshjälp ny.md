@@ -113,10 +113,13 @@ Klicka på **+ikonen** för att lägga till. Gå till Skapa lokal entitet. Förv
 Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** till höger om Lokal anmärkning: Bokband för att lägga till delfält.
   * Benämning (563 ‡a)
 
-* Har lokal anmärkning: Åtgärd (583=)
-Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** till höger om Lokal anmärkning: Åtgärd för att lägga till delfält
+* Har lokal anmärkning: Åtgärd (583)
+Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** till höger om ''Lokal anmärkning: Åtgärd** för att lägga till delfält och indikator
   * Benämning (583 ‡a)
   * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (583 ‡3)
+  * Sekretessbelagd information / Klicka i boxen (583 indikator 1) 0 = ifylld, 1 = ej ifylld. OBS! Det går ännu inte att ange Uppgift saknas - detta är under arbete.
+  
+  
 
 
 
