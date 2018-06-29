@@ -35,6 +35,9 @@ De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde
 
 
 ### Har komponent
+(852)
+OBS! I konverterade data med bara ett 852 ligger delfälten inte under **Har komponent**. Vid skapande av nutt bestånd måste det motsvarar delfält läggas under **Har komponent** för det ska bli korrekt.
+
 Klicka på pilen för **Bestånd**. Du kan då lägga till
 * Hyllkod (852 ‡h)
 Här lägger du uppställning efter klassifikation eller annan hyllkod
@@ -123,17 +126,17 @@ Klicka på **+ikonen** för att lägga till. Gå till Skapa lokal entitet. Förv
   * Accessionsnummer (541 ‡e)
   * Ägare (541 ‡f)
   * Anskaffningspris (541 ‡h)
-  * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (541 ‡3)
+  * Del av materialet som avses (541 ‡3) / Resurs (val vid Skapa lokal entitet) / Benämning 
 
 
 * Ägarhistorik (561 ‡a)
 
-* Har lokal anmärkning: Identifiering av exemplar, kopia eller version/ Igenkänningstecken  (562 ‡a)
+* Har lokal anmärkning: Identifiering av exemplar, kopia eller version (562 ‡a)/ Igenkänningstecken  
   * Identifiering av exemplar (562 ‡b)
   * Identifiering av version (562 ‡c)
   * Presentationsformat (562 ‡d)
   * Antal exemplar (562 ‡e)
-  * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (562 ‡3)
+  * Del av materialet som avses (562 ‡3) / Resurs (val vid Skapa lokal entitet) / Benämning 
 
 
 * Har lokal anmärkning: Bokband (563)
@@ -143,7 +146,7 @@ Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** ti
 * Har lokal anmärkning: Åtgärd (583)
 Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** till höger om **Lokal anmärkning: Åtgärd** för att lägga till delfält och indikator
   * Benämning (583 ‡a)
-  * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (583 ‡3)
+  * Del av materialet som avses (583 ‡3) / Resurs (val vid Skapa lokal entitet) / Benämning 
     
 
 
