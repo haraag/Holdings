@@ -112,6 +112,7 @@ Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** ti
 
 * Förvärvsuppgifter (541)
 Klicka på **+ikonen** för att lägga till. Gå till Skapa lokal entitet. Förvärvsuppgister kommer då automatiskt.
+   * Sekretessbelagd information / Klicka i boxen (583 indikator 1) 0 = ifylld, 1 = ej ifylld. OBS! Det går ännu inte att ange Uppgift saknas - detta är under arbete. OBS! Fältet måste läggas in för att export ska fungera.
   * Förvärvskälla (541 ‡a)
   * Adress (541 ‡b)
   * Förvärvssättt (541 ‡c)
@@ -120,6 +121,7 @@ Klicka på **+ikonen** för att lägga till. Gå till Skapa lokal entitet. Förv
   * Ägare (541 ‡f)
   * Anskaffningspris (541 ‡h)
   * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (541 ‡3)
+
 
 * Ägarhistorik (561 ‡a)
 
@@ -139,9 +141,8 @@ Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** ti
 Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** till höger om ''Lokal anmärkning: Åtgärd** för att lägga till delfält och indikator
   * Benämning (583 ‡a)
   * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (583 ‡3)
-  * Sekretessbelagd information / Klicka i boxen (583 indikator 1) 0 = ifylld, 1 = ej ifylld. OBS! Det går ännu inte att ange Uppgift saknas - detta är under arbete.
-  
-  
+  * Sekretessbelagd information / Klicka i boxen (583 indikator 1) 0 = ifylld, 1 = ej ifylld. OBS! Det går ännu inte att ange Uppgift saknas - detta är under arbete. OBS! Fältet måste läggas in för att export ska fungera.
+    
 
 
 
