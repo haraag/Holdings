@@ -113,7 +113,6 @@ Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** ti
 
 * Förvärvsuppgifter (541)
 Klicka på **+ikonen** för att lägga till. Gå till Skapa lokal entitet. Förvärvsuppgister kommer då automatiskt.
-   * Sekretessbelagd information / Klicka i boxen (583 indikator 1) 0 = ifylld, 1 = ej ifylld. *OBS! Det går ännu inte att ange Uppgift saknas - detta är under arbete. OBS! Fältet måste läggas in för att export ska fungera.*
   * Förvärvskälla (541 ‡a)
   * Adress (541 ‡b)
   * Förvärvssättt (541 ‡c)
@@ -142,7 +141,6 @@ Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** ti
 Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** till höger om ''Lokal anmärkning: Åtgärd** för att lägga till delfält och indikator
   * Benämning (583 ‡a)
   * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (583 ‡3)
-  * Sekretessbelagd information / Klicka i boxen (583 indikator 1) 0 = ifylld, 1 = ej ifylld. *OBS! Det går ännu inte att ange Uppgift saknas - detta är under arbete. OBS! Fältet måste läggas in för att export ska fungera.*
     
 
 
@@ -155,7 +153,6 @@ För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och ge
   * Kod (698 ‡a)
   * Benämning (698 ‡b)
   
-* 
 
 * Klassifikation/DDK-klassifikation/Kod (082 ‡a)
   * Klassifikationsupplaga (082 indikator 1). Vanligen fullständig upplaga.
@@ -208,8 +205,6 @@ Ospecificerad relation
 
 
 ### Oformaterad beståndsuppgift
-*OBS! Om du inte vill använda Oformaterad beståndsuppgift ska fältet tas bort. 
-Om du vill använd det ska de "tomma" fälten Marc:holdingsLevel samt Marc:typeOfNotation inte tas bort! I mallen finns ett blanksteg med som behövs för att få med värden i indikator 1 och 2. För att ändra från "ej angiven/saknas" måste blanktecknet först tas bort och därefter rätt siffra skrivas in. Detta är en temporär lösning på problemet med att 866 inte exporterades.*
 * Beståndsuppgift (866 ‡a)
 * Katalogisatörens anmärkning (866 ‡x)
 * Offentlig anmärkning (866 ‡z)
