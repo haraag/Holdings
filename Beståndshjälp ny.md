@@ -4,7 +4,9 @@
 
 Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när du väljer att lägga bestånd. (852 ‡b)
 
-De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via **+ikonen** för bestånd.
+De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via **+ikonen** för bestånd. Det är viktigt använda rätt **+ikon**. 
+**+ikonen** i högermenyn används för vad som motsvarande fält i marc. 
+**+ikonen** till höger det som valts väljer man det som motsvarar delfält.*
 
 ### Innehållsförteckning
 [Har komponent](#har-komponent)
@@ -80,8 +82,7 @@ Välj önskad nivå:
   * z	Annan nivå
 
 * Katalogisatörens anmärkning (599 ‡a)
-
-*För att lägga till information nedan behöver man använda rätt **+ikon**. **+ikonen** i högermenyn lägger till  t.ex.  Identifikator. Från **+ikonen** till höger om den identifikatortyp som valts väljer man det som motsvarar delfält.* 
+ 
 
 ### Identifierare
 * Identifikator (IdentifiedBy) / Välj från lista (024 indikator 1)
@@ -210,7 +211,8 @@ Ospecificerad relation
 * Offentlig anmärkning (866 ‡z)
 * Underordnad institution/enhet (866 ‡9)
 
-### Exemplarinformation (876-877)
+### Exemplarinformation 
+(876-877)
 * Har exemplarinformation - huvudpublikation etc. (876)
   * Internt exemplarnummer (876 ‡a)
   * Ogiltigt/makulerat intern exemplarnummer (876 ‡b)
