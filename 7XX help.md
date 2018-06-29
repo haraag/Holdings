@@ -135,7 +135,7 @@ Välj **Primär medverkan** när agenten har relation till ett annat verk än de
   
   Länka i första hand. För att lägga till som lokal entitet:
   
-    * Medverkan och funktion / Primär medverkan/ Agent/ PersonEfternamn
+    * Medverkan och funktion / Primär medverkan/ Agent/ Person/Efternamn
   ```Exempel: Roberts```
      * Medverkan och funktion / Primär medverkan / Agent/ Förnamn
    ```Exempel: Nora```
