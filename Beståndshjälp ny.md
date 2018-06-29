@@ -155,9 +155,16 @@ Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** ti
 Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
 För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och genre/form
 
+* Lokala ämnesord (650 _/4)
+  * Allmänt ämnesord / Föredragen benämning
+ 
+* Lokala ämnesord (653)
+  * Allmänt ämnesord / Benämning
+
 * Lokala ämnesord/rubriker (övriga) (698)
   * Kod (698 ‡a)
   * Benämning (698 ‡b)
+
   
 
 * Klassifikation/DDK-klassifikation/Kod (082 ‡a)
