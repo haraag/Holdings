@@ -116,6 +116,8 @@ Välj **Primär medverkan** när agenten har relation till ett annat verk än de
   
   ```Exempel:  Mind over matter```
   
+  
+###  Fler delfält
   Fler delfält att lägga till vid **+ikonen** för **Titeln** som rör titeln:
   * Specificering i form av grupptitel (700 ‡k)
   * Delbeteckning (700 ‡n)
