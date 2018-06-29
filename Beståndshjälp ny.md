@@ -178,7 +178,7 @@ För information om vilka delfält som kan läggas till planeras en särskild hj
     Länka till entitet. Sök på kod eller term
     ```Exempel: relator/fmo (=Tidigare ägare)```
 
-### Elektronisk adress (856)
+### Elektronisk adress
 Defaultvärde för indikator 1 är 4 (http).
 * Elektronisk adress / Mediaobjekt (val vid Skapa lokal entitet) (856 4/_)
 Ingen information om relation mellan den elektroniska resursen och bibliografiska resurs som beskrivis
@@ -205,7 +205,7 @@ Ospecificerad relation
 
 
 
-### Oformaterad beståndsuppgift - huvudpublikation (866)
+### Oformaterad beståndsuppgift
 *OBS! Om du inte vill använda Oformaterad beståndsuppgift ska fältet tas bort. 
 Om du vill använd det ska de "tomma" fälten Marc:holdingsLevel samt Marc:typeOfNotation inte tas bort! I mallen finns ett blanksteg med som behövs för att få med värden i indikator 1 och 2. För att ändra från "ej angiven/saknas" måste blanktecknet först tas bort och därefter rätt siffra skrivas in. Detta är en temporär lösning på problemet med att 866 inte exporterades.*
 * Beståndsuppgift (866 ‡a)
