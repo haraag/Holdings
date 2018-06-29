@@ -7,7 +7,7 @@ Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatis
 De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via **+ikonen** för bestånd.
 
 ### Innehållsförteckning
-[Har komponent (852)](#har-komponent-(852))
+[Har komponent](#har-komponent)
 
 [Adminmetada](#adminmetadata)
 
@@ -30,7 +30,7 @@ De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde
 
 
 
-### Har komponent (852)
+### Har komponent
 Klicka på pilen för **Bestånd**. Du kan då lägga till
 * Hyllkod (852 ‡h)
 Här lägger du uppställning efter klassifikation eller annan hyllkod
