@@ -65,8 +65,8 @@ För att lägga till ytterligare ett bestånd (motsvarande flera 852) klickar du
 
 
 ### Adminmetadata
-För enkla monografier behöver vanligen inte Adminmetadata läggas till eller ändras. Hör av dig till Supportforumet om du saknar möjlighet att lägga till Adminmetadata som ditt bibliotek behöver.
-* Posttyp. Om inget val görs blir värdet (000 [6] u). För att ändra värde lägg till Posttyp och välj i lista (000 [6]
+För enkla monografier behöver vanligen inte Adminmetadata läggas till eller ändras. *Hör av dig till Supportforumet om du saknar möjlighet att lägga till Adminmetadata som ditt bibliotek behöver.*
+* Posttyp. Om inget val görs blir värdet (000 [6] u). För att ändra värde lägg till Posttyp och välj i lista (000 [6])
   * Fortlöpande (seriell eller integrerande) resurs) (000 [6] y)
   * Monografisk resurs (000 [6] x)
   * Monografisk resurs (1 bibliografisk post med flera delar) (000 [6] v)
@@ -113,7 +113,7 @@ Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** ti
 
 * Förvärvsuppgifter (541)
 Klicka på **+ikonen** för att lägga till. Gå till Skapa lokal entitet. Förvärvsuppgister kommer då automatiskt.
-   * Sekretessbelagd information / Klicka i boxen (583 indikator 1) 0 = ifylld, 1 = ej ifylld. OBS! Det går ännu inte att ange Uppgift saknas - detta är under arbete. OBS! Fältet måste läggas in för att export ska fungera.
+   * Sekretessbelagd information / Klicka i boxen (583 indikator 1) 0 = ifylld, 1 = ej ifylld. *OBS! Det går ännu inte att ange Uppgift saknas - detta är under arbete. OBS! Fältet måste läggas in för att export ska fungera.*
   * Förvärvskälla (541 ‡a)
   * Adress (541 ‡b)
   * Förvärvssättt (541 ‡c)
@@ -142,7 +142,7 @@ Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** ti
 Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** till höger om ''Lokal anmärkning: Åtgärd** för att lägga till delfält och indikator
   * Benämning (583 ‡a)
   * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (583 ‡3)
-  * Sekretessbelagd information / Klicka i boxen (583 indikator 1) 0 = ifylld, 1 = ej ifylld. OBS! Det går ännu inte att ange Uppgift saknas - detta är under arbete. OBS! Fältet måste läggas in för att export ska fungera.
+  * Sekretessbelagd information / Klicka i boxen (583 indikator 1) 0 = ifylld, 1 = ej ifylld. *OBS! Det går ännu inte att ange Uppgift saknas - detta är under arbete. OBS! Fältet måste läggas in för att export ska fungera.*
     
 
 
