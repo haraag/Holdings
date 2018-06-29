@@ -1,4 +1,4 @@
-*UNDER ARBETE - UPPDATERAS KONTIUNUERLIGT (uppdaterad 2018-06-05)*
+*UNDER ARBETE - UPPDATERAS KONTIUNUERLIGT (uppdaterad 2018-06-29)*
 
 # Beståndsregistrering
 
@@ -24,7 +24,7 @@ Om ytterligare information om placering utöver Hyllkod behöver läggas till.
 Många ytterligare fält kan läggas till **Har komponent** - gå till **+ikonen** vid beståndet under **Har komponent**. Där kan du söka upp följande:
 * Tidigare hylluppställning (852 ‡d)
 * Precisering av hyllplacering (852 ‡g)
-* Exemplarstatus / Klicka på **+ikonen** vid **Exemplarstatus** / Klicka på **Skapa lokal entitet** - du får då ett nytt fält Exemplarstatus där du vid denna **+ikon** kan välja **Benämning**  (852 ‡i)
+* Exemplarstatus / Klicka på **+ikonen** vid **Exemplarstatus** / Klicka på **Skapa lokal entitet** - du får då ett nytt fält Exemplarstatus där du vid denna **+ikon** kan välja **Benämning**  (852 ‡i). *Under utveckling. Det går att länka till ett antal vanliga beskrivningar för exemplarstatus. Dessa kommer inte med vid export*
 * Prefix för lokalsignum (852 ‡k)
 * Hyllsignum: uppställningsord (852 ‡l)
 * Sufffix för lokalsignum (852 ‡m)
@@ -182,7 +182,8 @@ Ospecificerad relation
 
 
 ### Oformaterad beståndsuppgift - huvudpublikation (866)
-*OBS! Ta inte bort de "tomma" fälten Marc:holdingsLevel samt Marc:typeOfNotation! I mallen finns ett blanksteg med som behövs för att få med värden i indikator 1 och 2. För att ändra från "ej angiven/saknas" måste blanktecknet först tas bort och därefter rätt siffra skrivas in. Detta är en temporär lösning på problemet med att 866 inte exporterades.*
+*OBS! Om du inte vill använda Oformaterad beståndsuppgift ska fältet tas bort. 
+Om du vill använd det ska de "tomma" fälten Marc:holdingsLevel samt Marc:typeOfNotation inte tas bort! I mallen finns ett blanksteg med som behövs för att få med värden i indikator 1 och 2. För att ändra från "ej angiven/saknas" måste blanktecknet först tas bort och därefter rätt siffra skrivas in. Detta är en temporär lösning på problemet med att 866 inte exporterades.*
 * Beståndsuppgift (866 ‡a)
 * Katalogisatörens anmärkning (866 ‡x)
 * Offentlig anmärkning (866 ‡z)
