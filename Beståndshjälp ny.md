@@ -5,7 +5,9 @@
 Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när du väljer att lägga bestånd. (852 ‡b)
 
 De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via **+ikonen** för bestånd. Det är viktigt använda rätt **+ikon**. 
+
 **+ikonen** i högermenyn används för vad som motsvarande fält i marc. 
+
 **+ikonen** till höger det som valts väljer man det som motsvarar delfält.*
 
 ### Innehållsförteckning
@@ -172,10 +174,12 @@ Länka till auktoriteter i första hand, men det går att skapa en lokal entitet
   * Släkt / Namn/ Levnadsår / Funktion (700 3/_)
   * Jurisdiktion / Namn / Funktion  (710 1/_)
   * Organisation / Namn / Funktion (710 2/_)
-För information om vilka delfält som kan läggas till se  [Hjälp](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation "Hjälp")
+   
+
   * Funktion - lägg till vid **+ikonen** till höger om Medverkan (700 ‡4)
     Länka till entitet. Sök på kod eller term
     ```Exempel: relator/fmo (=Tidigare ägare)```
+  * För information om vilka delfält som kan läggas till se  [Hjälp](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation "Hjälp")
 
 ### Elektronisk adress
 Om du inte lägger till motsvarande indikator 1 exporteras värdet som 4 (http).
