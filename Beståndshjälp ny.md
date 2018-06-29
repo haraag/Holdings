@@ -29,6 +29,7 @@ De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde
 
 
 
+
 ### Har komponent (852)
 Klicka på pilen för **Bestånd**. Du kan då lägga till
 * Hyllkod (852 ‡h)
