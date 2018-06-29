@@ -21,7 +21,7 @@ De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde
 
 [Elektronisk adress](#elektronisk-adress)
 
-[Oformaterad beståndsuppgift - huvudpublikation](#oformaterad-beståndsuppgift---huvudpublikation)
+[Oformaterad beståndsuppgift](#oformaterad-beståndsuppgift)
 
 [Exemplarinformation](#exemplarinformation)
 
