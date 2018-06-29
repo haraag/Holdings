@@ -7,7 +7,7 @@ Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatis
 De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via **+ikonen** för bestånd.
 
 ### Innehållsförteckning
-[Har komponent (852)](#har komponent (852))
+[Har komponent](#har-komponent)
 
 [Adminmetada](#adminmetadata)
 
@@ -15,15 +15,19 @@ De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde
 
 [Anmärkningar](#anmärkningar)
 
+[Lokala ämnesord och klassifikation](#alokala-ämnesord-och-klassifikation)
+
 [Agenter](#agenter)
 
 [Elektronisk adress](#elektronisk-adress)
 
-[Exemplarinformation](#exemplarinformation)
+[Oformaterad beståndsuppgift - huvudpublikation](#Oformaterad-beståndsuppgift---huvudpublikation)
 
 [Exemplarinformation](#exemplarinformation)
 
-Elektronisk_Adress
+[Lokalt definierade beståndsfält](#lokalt-definierade-beståndsfält)
+
+
 
 ### Har komponent (852)
 Klicka på pilen för **Bestånd**. Du kan då lägga till
