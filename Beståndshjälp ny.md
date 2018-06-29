@@ -92,9 +92,9 @@ Välj önskad nivå:
 
 
 ### Anmärkningar
-* Anmärkning/hasNote. Klicka på plusstecknet vid Anmärkning för att lägga till en allmän anmärkning. (500 ‡a)
+* Anmärkning/hasNote (500 ‡a). Klicka på plusstecknet vid Anmärkning för att lägga till en allmän anmärkning. 
 
-* Villkor för användning och åtkomst/Villkor som användning och åtkomst (val vid Skapa som lokal entitet)
+* Villkor för användning och åtkomst/Välj Skapa lokal entitet / Villkor som användning och åtkomst
   * Benämning (506 ‡a)
   * Tillsåndsgivare (506 ‡b)
   * Fysiska omständigheter (506 ‡c)
@@ -138,7 +138,7 @@ Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** ti
   * Benämning (563 ‡a)
 
 * Har lokal anmärkning: Åtgärd (583)
-Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** till höger om ''Lokal anmärkning: Åtgärd** för att lägga till delfält och indikator
+Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** till höger om **Lokal anmärkning: Åtgärd** för att lägga till delfält och indikator
   * Benämning (583 ‡a)
   * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (583 ‡3)
     
@@ -149,7 +149,7 @@ Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** ti
 Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
 För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och genre/form
 
-* Lokala ämnesor/rubriker (övriga) (698)
+* Lokala ämnesord/rubriker (övriga) (698)
   * Kod (698 ‡a)
   * Benämning (698 ‡b)
   
@@ -178,7 +178,7 @@ För information om vilka delfält som kan läggas till planeras en särskild hj
     ```Exempel: relator/fmo (=Tidigare ägare)```
 
 ### Elektronisk adress
-Defaultvärde för indikator 1 är 4 (http).
+Om du inte lägger till motsvarande indikator 1 exporteras värdet som 4 (http).
 * Elektronisk adress / Mediaobjekt (val vid Skapa lokal entitet) (856 4/_)
 Ingen information om relation mellan den elektroniska resursen och bibliografiska resurs som beskrivis
 
