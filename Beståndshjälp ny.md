@@ -172,7 +172,7 @@ Länka till auktoriteter i första hand, men det går att skapa en lokal entitet
   * Släkt / Namn/ Levnadsår / Funktion (700 3/_)
   * Jurisdiktion / Namn / Funktion  (710 1/_)
   * Organisation / Namn / Funktion (710 2/_)
-För information om vilka delfält som kan läggas till se  [Hjälp](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation "Hjälp"
+För information om vilka delfält som kan läggas till se  [Hjälp](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation "Hjälp")
   * Funktion - lägg till vid **+ikonen** till höger om Medverkan (700 ‡4)
     Länka till entitet. Sök på kod eller term
     ```Exempel: relator/fmo (=Tidigare ägare)```
