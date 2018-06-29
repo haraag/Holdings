@@ -44,10 +44,10 @@ Om ytterligare information om placering utöver Hyllkod behöver läggas till.
   ```Exempel: 2694```
 
 
-Många ytterligare fält kan läggas till **Har komponent** - gå till **+ikonen** vid beståndet under **Har komponent**. Där kan du söka upp följande:
+Många ytterligare fält kan läggas till i **Har komponent** - gå till **+ikonen** vid beståndet under **Har komponent**. Där kan du söka upp följande:
 * Tidigare hylluppställning (852 ‡d)
 * Precisering av hyllplacering (852 ‡g)
-* Exemplarstatus / Klicka på **+ikonen** vid **Exemplarstatus** / Klicka på **Skapa lokal entitet** - du får då ett nytt fält Exemplarstatus där du vid denna **+ikon** kan välja **Benämning**  (852 ‡i). *Under utveckling. Det går att länka till ett antal vanliga beskrivningar för exemplarstatus. Dessa kommer inte med vid export*
+* Exemplarstatus (852 ‡i) / Klicka på **+ikonen** vid **Exemplarstatus** / Klicka på **Skapa lokal entitet** - du får då ett nytt fält Exemplarstatus där du vid denna **+ikon** kan välja **Benämning**. *Under utveckling. Det går att länka till ett antal vanliga beskrivningar för exemplarstatus. Dessa kommer inte med vid export*
 * Prefix för lokalsignum (852 ‡k)
 * Hyllsignum: uppställningsord (852 ‡l)
 * Sufffix för lokalsignum (852 ‡m)
@@ -56,8 +56,8 @@ Många ytterligare fält kan läggas till **Har komponent** - gå till **+ikonen
 * Exemplarnummer (852 ‡t)
 * URI (852 ‡u)
 * Katalogisatörens anmärkning (852 ‡x)
-* Anmärkning (hasNote) / Klicka på **+ikonen** direkt vid Anmärkning (Note) / Klicka på pilen. Du får då fram fältet **Benämning**. Skriv in din offentliga anmärkning (852 ‡z)
-* Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (852 ‡3)
+* Anmärkning (hasNote) (852 ‡z) / Klicka på **+ikonen** direkt vid Anmärkning (Note) / Klicka på pilen. Du får då fram fältet **Benämning**. Skriv in din offentliga anmärkning 
+* Del av materialet som avses (852 ‡3) / Resurs (val vid Skapa lokal entitet) / Benämning 
 * Underordnad institution/enhet (852 ‡9)
 
 För att lägga till ytterligare ett bestånd (motsvarande flera 852) klickar du på **+ikonen**  vid **Har komponent**.
@@ -65,7 +65,7 @@ För att lägga till ytterligare ett bestånd (motsvarande flera 852) klickar du
 
 
 ### Adminmetadata
-För enkla monografier behöver vanligen inte Adminmetadata läggas till eller ändras. Hör av dig till Supportforumet du saknar möjlighet att lägga till Adminmetadata som. ditt bibliotek behöver
+För enkla monografier behöver vanligen inte Adminmetadata läggas till eller ändras. Hör av dig till Supportforumet om du saknar möjlighet att lägga till Adminmetadata som ditt bibliotek behöver.
 * Posttyp. Om inget val görs blir värdet (000 [6] u). För att ändra värde lägg till Posttyp och välj i lista (000 [6]
   * Fortlöpande (seriell eller integrerande) resurs) (000 [6] y)
   * Monografisk resurs (000 [6] x)
@@ -149,11 +149,13 @@ Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** ti
 
 ### Lokala ämnesord och klassifikation
 Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
-För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och genre/form.
+För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och genre/form
 
 * Lokala ämnesor/rubriker (övriga) (698)
   * Kod (698 ‡a)
   * Benämning (698 ‡b)
+  
+* 
 
 * Klassifikation/DDK-klassifikation/Kod (082 ‡a)
   * Klassifikationsupplaga (082 indikator 1). Vanligen fullständig upplaga.
