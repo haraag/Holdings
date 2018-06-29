@@ -6,6 +6,16 @@ Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatis
 
 De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via **+ikonen** för bestånd.
 
+### Innehållsförteckning
+[Har komponent (852)](#har komponent (852))
+
+[Numrerad](#numrerad)
+
+[Highlight](#highlight)
+
+[Länkning](#länkning)
+
+[Tabell](#tabell)
 
 ### Har komponent (852)
 Klicka på pilen för **Bestånd**. Du kan då lägga till
