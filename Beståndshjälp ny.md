@@ -9,7 +9,7 @@ De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde
 ### Innehållsförteckning
 [Har komponent (852)](#har komponent (852))
 
-[Numrerad](#numrerad)
+[Identifierare](#identifierare)
 
 [Highlight](#highlight)
 
