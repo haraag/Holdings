@@ -9,13 +9,21 @@ De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde
 ### Innehållsförteckning
 [Har komponent (852)](#har komponent (852))
 
+[Adminmetada](#adminmetadata)
+
 [Identifierare](#identifierare)
 
-[Highlight](#highlight)
+[Anmärkningar](#anmärkningar)
 
-[Länkning](#länkning)
+[Agenter](#agenter)
 
-[Tabell](#tabell)
+[Elektronisk adress](#elektronisk-adress)
+
+[Exemplarinformation](#exemplarinformation)
+
+[Exemplarinformation](#exemplarinformation)
+
+Elektronisk_Adress
 
 ### Har komponent (852)
 Klicka på pilen för **Bestånd**. Du kan då lägga till
@@ -164,7 +172,7 @@ För information om vilka delfält som kan läggas till planeras en särskild hj
     Länka till entitet. Sök på kod eller term
     ```Exempel: relator/fmo (=Tidigare ägare)```
 
-### Elektronisk Adress (856)
+### Elektronisk adress (856)
 Defaultvärde för indikator 1 är 4 (http).
 * Elektronisk adress / Mediaobjekt (val vid Skapa lokal entitet) (856 4/_)
 Ingen information om relation mellan den elektroniska resursen och bibliografiska resurs som beskrivis
