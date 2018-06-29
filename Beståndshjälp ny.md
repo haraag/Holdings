@@ -15,13 +15,13 @@ De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde
 
 [Anmärkningar](#anmärkningar)
 
-[Lokala ämnesord och klassifikation](#alokala-ämnesord-och-klassifikation)
+[Lokala ämnesord och klassifikation](#lokala-ämnesord-och-klassifikation)
 
 [Agenter](#agenter)
 
 [Elektronisk adress](#elektronisk-adress)
 
-[Oformaterad beståndsuppgift - huvudpublikation](#Oformaterad-beståndsuppgift---huvudpublikation)
+[Oformaterad beståndsuppgift - huvudpublikation](#oformaterad-beståndsuppgift---huvudpublikation)
 
 [Exemplarinformation](#exemplarinformation)
 
