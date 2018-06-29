@@ -155,10 +155,10 @@ Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** ti
 Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
 För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och genre/form
 
-* Lokala ämnesord (650 _/4)
+* Lokala ämnesord (650_/4 ‡a)
   * Allmänt ämnesord / Föredragen benämning
  
-* Lokala ämnesord (653)
+* Lokala ämnesord (653 ‡a)
   * Allmänt ämnesord / Benämning
 
 * Lokala ämnesord/rubriker (övriga) (698)
