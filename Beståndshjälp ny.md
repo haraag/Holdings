@@ -36,7 +36,7 @@ De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde
 
 ### Har komponent
 (852)
-OBS! I konverterade data med bara ett 852 ligger delfälten inte under **Har komponent**. Vid skapande av nytt bestånd måste det motsvarar delfält läggas under **Har komponent** för det ska bli korrekt. För att uppdatera en konverterad post som inte har **Har komponent** behöver du ta bort komverterade fälten som blivit fel och lägga dem under **Har komponent**
+OBS! I konverterade data med bara ett 852 ligger delfälten inte under **Har komponent**. Vid skapande av nytt bestånd måste de delfält som  motsvarar delfält i 852 läggas under **Har komponent** för det ska bli korrekt. För att uppdatera en konverterad post som inte har **Har komponent** behöver du ta bort de konverterade fälten som ligger fel och lägga dem under **Har komponent**. 
 
 Klicka på pilen för **Bestånd**. Du kan då lägga till
 * Hyllkod (852 ‡h)
