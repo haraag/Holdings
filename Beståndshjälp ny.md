@@ -90,7 +90,7 @@ Välj önskad nivå:
  
 
 ### Identifierare
-* Identifikator (IdentifiedBy) / Välj från lista (024 indikator 1)
+* Identifikator (IdentifiedBy) / Välj typ från lista (024 indikator 1)
   * Värde (024 ‡a)
   * Ogiltigt värde (024 ‡z)
   * Typanmärkning, bestämning till indikator 1=7 (024 ‡2)
@@ -221,7 +221,7 @@ Ospecificerad relation
 
 
 ### Oformaterad beståndsuppgift
-*OBS! i mallen finns fälten **Marc:holdingsLevel** samt **Marc:typeOfNotation**. Dessa fält behöver inte fyllas i men behövs för att exporten ska bli korrekt. Om du inte behöver använda **Oformaterad beståndsuppgift** måste du däremot ta bort de två fälten i mallen.
+*OBS! i mallen finns fälten **Marc:holdingsLevel** samt **Marc:typeOfNotation**. Dessa fält behöver inte fyllas i men behövs för att exporten ska bli korrekt. Om du inte behöver använda **Oformaterad beståndsuppgift** måste du däremot ta bort fältet, det tas inte bort automatiskt eftersom det finns blanksteg i mallen.
 
 * Beståndsuppgift (866 ‡a)
 * Katalogisatörens anmärkning (866 ‡x)
@@ -262,6 +262,7 @@ Ospecificerad relation
 
 
 ### Lokalt definierade beståndsfält
+*OBS! Tillsvidare måste indikator 1 och 2 läggas till för att fälten ska kunna exporteras
 * Lokalt definierat beståndsfält (beståndsfält 948)
 * Lokalt definierat beståndsfält (beståndsfält 949)
 Beståndsfält a-z, A-Z samt 0-9 kan läggas till.
