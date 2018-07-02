@@ -25,7 +25,7 @@ Om ytterligare information om placering utöver Hyllkod behöver läggas till.
 För att lägga till ytterligare ett Bestånd (motsvarande flera 852) klickar du på **+ikonen** vid **Har komponent**.
 
 ### Oformaterad beståndsuppgift - huvudpublikation (866)
-*OBS! i mallen finns fälten **Marc:holdingsLevel** samt **Marc:typeOfNotation**. Dessa fält behöver inte fyllas i men behövs för att exporten ska bli korrekt. Om du inte behöver använda **Oformaterad beståndsuppgift** måste du däremot ta bort de två fälten i mallen.*
+*OBS! i mallen finns fälten **Marc:holdingsLevel** samt **Marc:typeOfNotation**. Dessa fält behöver inte fyllas i men behövs för att exporten ska bli korrekt. Om du inte behöver använda **Oformaterad beståndsuppgift** måste du däremot ta bort fältet, det tas inte bort automatiskt eftersom det finns blanksteg i mallen.*
 * Beståndsuppgift (866 ‡a)
 * Katalogisatörens anmärkning (866 ‡x)
 * Offentlig anmärkning (866 ‡z)
