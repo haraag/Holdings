@@ -4,11 +4,11 @@
 
 Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när du väljer att lägga bestånd. (852 ‡b)
 
-De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via **+ikonen** för bestånd. Det är viktigt använda rätt **+ikon**. 
+De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via plustecknet för bestånd. Det är viktigt använda rätt plustecken. 
 
-**+ikonen** i högermenyn används för vad som motsvarande fält i marc. 
+Plustecken i sidorutan Lägg till entitet används för vad som motsvarande fält i marc. 
 
-**+ikonen** till höger det som valts väljer man det som motsvarar delfält.*
+Plustecken intill det som valts väljer man det som motsvarar delfält.
 
 ### Innehållsförteckning
 [Har komponent](#har-komponent)
@@ -51,10 +51,10 @@ Om ytterligare information om placering utöver Hyllkod behöver läggas till.
   ```Exempel: 2694```
 
 
-Många ytterligare fält kan läggas till i **Har komponent** - gå till **+ikonen** vid beståndet under **Har komponent**. Där kan du söka upp följande:
+Många ytterligare fält kan läggas till i Har komponent - gå till plustecknet vid beståndet under Har komponent. Där kan du söka upp följande:
 * Tidigare hylluppställning (852 ‡d)
 * Precisering av hyllplacering (852 ‡g)
-* Exemplarstatus (852 ‡i) / Klicka på **+ikonen** vid **Exemplarstatus** / Klicka på **Skapa lokal entitet** - du får då ett nytt fält Exemplarstatus där du vid denna **+ikon** kan välja **Benämning**. *Under utveckling. Det går att länka till ett antal vanliga beskrivningar för exemplarstatus. Dessa kommer inte med vid export*
+* Exemplarstatus (852 ‡i) / Klicka på plusteckent vid Exemplarstatus / Du kan länka till ett antal vanliga beskrivningar. Du får fram dessa genom att söka med asterisk.  Andra beskrivningar skapar du istället som lokal entitet   - du får då ett nytt fält Exemplarstatus där du klickar på plusikonen och väljer Benämning. 
 * Prefix för lokalsignum (852 ‡k)
 * Hyllsignum: uppställningsord (852 ‡l)
 * Sufffix för lokalsignum (852 ‡m)
@@ -63,11 +63,11 @@ Många ytterligare fält kan läggas till i **Har komponent** - gå till **+ikon
 * Exemplarnummer (852 ‡t)
 * URI (852 ‡u)
 * Katalogisatörens anmärkning (852 ‡x)
-* Anmärkning (hasNote) (852 ‡z) / Klicka på **+ikonen** direkt vid Anmärkning (Note) / Klicka på pilen. Du får då fram fältet **Benämning**. Skriv in din offentliga anmärkning 
+* Anmärkning (hasNote) (852 ‡z) / Klicka på plusikonen direkt vid Anmärkning (Note) / Klicka på pilen. Du får då fram fältet Benämning. Skriv in din offentliga anmärkning 
 * Del av materialet som avses (852 ‡3) / Resurs (val vid Skapa lokal entitet) / Benämning 
 * Underordnad institution/enhet (852 ‡9)
 
-För att lägga till ytterligare ett bestånd (motsvarande flera 852) klickar du på **+ikonen**  vid **Har komponent**.
+För att lägga till ytterligare ett bestånd (motsvarande flera 852) klickar du på plusikonen  vid Har komponent.
 
 
 
@@ -111,14 +111,14 @@ Välj önskad nivå:
   * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (506 ‡3)
 
 * Sammanfattning av innehåll (520)
-Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** till höger om sammanfattning för att lägga till delfält.
+Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet till höger om sammanfattning för att lägga till delfält.
   * Benämning (520 ‡a)
   * Utförligare anmärkningstext (520 ‡b)
   * Instans som åsatt anmärkning/etikett (520 ‡c)
   * URI (520 ‡u)
 
 * Förvärvsuppgifter (541)
-Klicka på **+ikonen** för att lägga till. Gå till Skapa lokal entitet. Förvärvsuppgister kommer då automatiskt.
+Klicka på plusikonen för att lägga till. Gå till Skapa lokal entitet. Förvärvsuppgister kommer då automatiskt.
   * Sekretessbelagd information / Klicka i boxen (541 indikator 1) 0 = ifylld, 1 = ej ifylld. *OBS! Det går ännu inte att ange Uppgift saknas - detta är under arbete.*
   * Förvärvskälla (541 ‡a)
   * Adress (541 ‡b)
@@ -141,11 +141,11 @@ Klicka på **+ikonen** för att lägga till. Gå till Skapa lokal entitet. Förv
 
 
 * Har lokal anmärkning: Bokband (563)
-Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** till höger om Lokal anmärkning: Bokband för att lägga till delfält.
+Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet till höger om Lokal anmärkning: Bokband för att lägga till delfält.
   * Benämning (563 ‡a)
 
 * Har lokal anmärkning: Åtgärd (583)
-Klicka på **+ikonen** för att lägga till. Klicka därefter på **+ikonen** till höger om **Lokal anmärkning: Åtgärd** för att lägga till delfält och indikator
+Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet till höger om **Lokal anmärkning: Åtgärd** för att lägga till delfält och indikator
   * Sekretessbelagd information / Klicka i boxen (583 indikator 1) 0 = ifylld, 1 = ej ifylld. *OBS! Det går ännu inte att ange Uppgift saknas - detta är under arbete.*
   * Benämning (583 ‡a)
   * Del av materialet som avses (583 ‡3) / Resurs (val vid Skapa lokal entitet) / Benämning 
@@ -188,7 +188,7 @@ Länka till auktoriteter i första hand, men det går att skapa en lokal entitet
   * Organisation / Namn / Funktion (710 2/_)
    
 
-  * Funktion - lägg till vid **+ikonen** till höger om Medverkan (700 ‡4)
+  * Funktion - lägg till vid plustecknet till höger om Medverkan (700 ‡4)
     Länka till entitet. Sök på kod eller term
     ```Exempel: relator/fmo (=Tidigare ägare)```
   * För information om vilka delfält som kan läggas till se  [Hjälp](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation "Hjälp")
@@ -221,8 +221,6 @@ Ospecificerad relation
 
 
 ### Oformaterad beståndsuppgift
-*OBS! i mallen finns fälten **Marc:holdingsLevel** samt **Marc:typeOfNotation**. Dessa fält behöver inte fyllas i men behövs för att exporten ska bli korrekt. Om du inte behöver använda **Oformaterad beståndsuppgift** måste du däremot ta bort fältet, det tas inte bort automatiskt eftersom det finns blanksteg i mallen.
-
 * Beståndsuppgift (866 ‡a)
 * Katalogisatörens anmärkning (866 ‡x)
 * Offentlig anmärkning (866 ‡z)
