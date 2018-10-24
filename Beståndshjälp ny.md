@@ -118,7 +118,7 @@ Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet ti
   * URI (520 ‡u)
 
 * Förvärvsuppgifter (541)
-Klicka på plutecknet för att lägga till. Gå till Skapa lokal entitet. Förvärvsuppgifter kommer då automatiskt.
+Klicka på plustecknet för att lägga till. Gå till Skapa lokal entitet. Förvärvsuppgifter kommer då automatiskt.
   * Sekretessbelagd information / Klicka i boxen (541 indikator 1) 0 = ifylld, 1 = ej ifylld. *OBS! Det går ännu inte att ange Uppgift saknas - detta är under arbete.*
   * Förvärvskälla (541 ‡a)
   * Adress (541 ‡b)
