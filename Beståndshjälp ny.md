@@ -63,11 +63,11 @@ Många ytterligare fält kan läggas till i Har komponent - gå till plustecknet
 * Exemplarnummer (852 ‡t)
 * URI (852 ‡u)
 * Katalogisatörens anmärkning (852 ‡x)
-* Anmärkning (hasNote) (852 ‡z) / Klicka på plusikonen direkt vid Anmärkning (Note) / Klicka på pilen. Du får då fram fältet Benämning. Skriv in din offentliga anmärkning 
+* Anmärkning (hasNote) (852 ‡z) / Klicka på plustecknet direkt vid Anmärkning (Note) / Klicka på pilen. Du får då fram fältet Benämning. Skriv in din offentliga anmärkning 
 * Del av materialet som avses (852 ‡3) / Resurs (val vid Skapa lokal entitet) / Benämning 
 * Underordnad institution/enhet (852 ‡9)
 
-För att lägga till ytterligare ett bestånd (motsvarande flera 852) klickar du på plusikonen  vid Har komponent.
+För att lägga till ytterligare ett bestånd (motsvarande flera 852) klickar du på plustecknet vid Har komponent.
 
 
 
@@ -98,7 +98,7 @@ Välj önskad nivå:
 
 
 ### Anmärkningar
-* Anmärkning/hasNote (500 ‡a). Klicka på plusstecknet vid Anmärkning för att lägga till en allmän anmärkning. 
+* Anmärkning/hasNote (500 ‡a). Klicka på plustecknet vid Anmärkning för att lägga till en allmän anmärkning. 
 
 * Villkor för användning och åtkomst/Välj Skapa lokal entitet / Villkor som användning och åtkomst
   * Benämning (506 ‡a)
@@ -118,7 +118,7 @@ Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet ti
   * URI (520 ‡u)
 
 * Förvärvsuppgifter (541)
-Klicka på plusikonen för att lägga till. Gå till Skapa lokal entitet. Förvärvsuppgister kommer då automatiskt.
+Klicka på plutecknet för att lägga till. Gå till Skapa lokal entitet. Förvärvsuppgifter kommer då automatiskt.
   * Sekretessbelagd information / Klicka i boxen (541 indikator 1) 0 = ifylld, 1 = ej ifylld. *OBS! Det går ännu inte att ange Uppgift saknas - detta är under arbete.*
   * Förvärvskälla (541 ‡a)
   * Adress (541 ‡b)
@@ -170,10 +170,8 @@ För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och ge
   
 
 * Klassifikation/DDK-klassifikation/Kod (082 ‡a)
-  * Klassifikationsupplaga (082 indikator 1). Vanligen fullständig upplaga.
-  ```Skriv in: full```
-  * Utgåvans nummer och upphov (082 ‡2)
-  ```Skriv in: 23/swe```
+  * Klassifikationsupplaga (082 indikator 1). Det vanligaste alternativet kommer automatiskt ```full```
+  * Utgåvans nummer och upphov (082 ‡2). ```23/swe```
 
 * Klassifikation/Klassifikation/Kod (084 ‡a)
 
