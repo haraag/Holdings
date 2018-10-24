@@ -171,7 +171,7 @@ För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och ge
 
 * Klassifikation/DDK-klassifikation/Kod (082 ‡a)
   * Klassifikationsupplaga (082 indikator 1). Det vanligaste alternativet kommer automatiskt ```full```
-  * Utgåvans nummer och upphov (082 ‡2). ```23/swe```
+  * Utgåvans nummer och upphov (editionenumeration) (082 ‡2). ```23/swe```
 
 * Klassifikation/Klassifikation/Kod (084 ‡a)
 
