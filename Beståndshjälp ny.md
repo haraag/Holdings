@@ -36,9 +36,9 @@ Plustecken intill det som valts väljer man det som motsvarar delfält.
 
 ### Har komponent
 (852)
-OBS! I konverterade data med bara ett 852 ligger delfälten inte under **Har komponent**. Vid skapande av nytt bestånd måste de delfält som  motsvarar delfält i 852 läggas under **Har komponent** för det ska bli korrekt. För att uppdatera en konverterad post som inte har **Har komponent** behöver du ta bort de konverterade fälten som ligger fel och lägga dem under **Har komponent**. 
+OBS! I konverterade data med bara ett 852 ligger delfälten inte under **Har komponent**. Vid skapande av nytt bestånd måste de delfält som  motsvarar delfält i 852 läggas under Har komponent för det ska bli korrekt. För att uppdatera en konverterad post som inte har Har komponent behöver du ta bort de konverterade fälten som ligger fel och lägga dem under Har komponent. 
 
-Klicka på pilen för **Bestånd**. Du kan då lägga till
+I Bestånd finns följande fält färdiga:
 * Hyllkod (852 ‡h)
 Här lägger du uppställning efter klassifikation eller annan hyllkod
   ```Exempel: 158.1```
@@ -47,8 +47,10 @@ Här lägger du uppställning efter klassifikation eller annan hyllkod
 Om ytterligare information om placering utöver Hyllkod behöver läggas till.
   ```Exempel: Institution 140```
 
-* Hyllsignum: Löpnummer (852 ‡j)
-  ```Exempel: 2694```
+* Hyllsignum: Uppställningsord (852 ‡l)  ```Exempel: AND```
+
+* Hyllsignum: Löpnummer (852 ‡j)  ```Exempel: 2694```
+ 
 
 
 Många ytterligare fält kan läggas till i Har komponent - gå till plustecknet vid beståndet under Har komponent. Där kan du söka upp följande:
@@ -56,7 +58,6 @@ Många ytterligare fält kan läggas till i Har komponent - gå till plustecknet
 * Precisering av hyllplacering (852 ‡g)
 * Exemplarstatus (852 ‡i) / Klicka på plustecknet vid Exemplarstatus / Du kan länka till ett antal vanliga beskrivningar. Du får fram dessa genom att söka med asterisk.  Andra beskrivningar skapar du istället som lokal entitet   - du får då ett nytt fält Exemplarstatus där du klickar på plusikonen och väljer Benämning. 
 * Prefix för lokalsignum (852 ‡k)
-* Hyllsignum: uppställningsord (852 ‡l)
 * Sufffix för lokalsignum (852 ‡m)
 * Unik exemplarbeteckning (streckkod) (852 ‡p)
 * Exemplarets fysiska tillstånd (852 ‡q)
