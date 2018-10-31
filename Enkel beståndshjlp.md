@@ -1,32 +1,45 @@
-*UNDER ARBETE - UPPDATERAS KONTINUERLIGT (2018-07-02)*
+---
+section: Arbetsflöden bestånd
+title: Enkel beståndsregistrering
+order: 135
+date: 2018-10-18
+tags:
+- under arbete
+- bestånd
+- beståndsregistrering
+--- 
 
-# Enkel beståndsregistrering
+## Enkel beståndsregistrering
 
-Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när du väljer att lägga bestånd.
+Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när ett bestånd läggs till.
 
-De mest vanliga fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via **+ikonen** för bestånd. För hjälp med detta och mer information om 852 se hjälpen **Beståndsregistrering**.
+Du kan lägga på bestånd direkt ifrån träfflistan. Från träfflistan kan du se om ditt bibliotek har bestånd och hur många andra bibliotek som har bestånd.
+
+De mest vanliga egenskaperna finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga egenskaper läggs till via plustecken. För vidare instruktioner och mer information, se hjälptexten [Beståndsregistrering](https://libris.kb.se/katalogisering/help/workflow-holding).
 
 ### Har komponent (852)
-Klicka på pilen för *Bestånd*. Du kan då lägga till:
+Klicka på pilen intill Bestånd för att expandera. Där kan följande läggas till:
 * Hyllkod (852 ‡h)
-Här lägger du uppställning efter klassifikation eller annan hyllkod
-
- ```Exempel: 158.1```
+Här läggs uppställning efter klassifikation eller annan hyllkod.
+<br/>```Exempel: 158.1```
 
 * Hyllplacering (Avdelning,samling) (852 ‡c)
-Om ytterligare information om placering utöver Hyllkod behöver läggas till.
-
- ```Exempel: Institution 14```
+Används då ytterligare information om placering utöver Hyllkod behöver läggas till.
+<br/>```Exempel: Institution 14```
 
 * Hyllsignum: Löpnummer (852 ‡j)
+<br/>```Exempel: 2594```
 
- ```Exempel: 2594```
+* Hyllsignum: Uppställningsord (852 ‡l)
+<br/>```Exempel: Andersson```
 
-För att lägga till ytterligare ett Bestånd (motsvarande flera 852) klickar du på **+ikonen** vid **Har komponent**.
+För att lägga till ytterligare ett Bestånd (motsvarande flera 852): Klicka på plustecknet inom Har komponent, ytterligare bestånd läggs då till.
 
 ### Oformaterad beståndsuppgift - huvudpublikation (866)
-*OBS! i mallen finns fälten **Marc:holdingsLevel** samt **Marc:typeOfNotation**. Dessa fält behöver inte fyllas i men behövs för att exporten ska bli korrekt. Om du inte behöver använda **Oformaterad beståndsuppgift** måste du däremot ta bort fältet, det tas inte bort automatiskt eftersom det finns blanksteg i mallen.*
+
 * Beståndsuppgift (866 ‡a)
 * Katalogisatörens anmärkning (866 ‡x)
 * Offentlig anmärkning (866 ‡z)
 * Underordnad institution/enhet (866 ‡9)
+
+
