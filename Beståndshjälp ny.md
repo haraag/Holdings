@@ -1,4 +1,13 @@
-*UNDER ARBETE - UPPDATERAS KONTIUNUERLIGT (uppdaterad 2018-07-02)*
+---
+section: Arbetsflöden bestånd
+title: Beståndsregistrering
+order: 136
+date: 2018-08-28
+tags:
+- under arbete
+- bestånd
+- beståndsregistrering
+--- 
 
 # Beståndsregistrering
 
@@ -32,8 +41,6 @@ Plustecken intill det som valts väljer man det som motsvarar delfält.
 [Lokalt definierade beståndsfält](#lokalt-definierade-beståndsfält)
 
 
-
-
 ### Har komponent
 (852)
 OBS! I konverterade data med bara ett 852 ligger delfälten inte under **Har komponent**. Vid skapande av nytt bestånd måste de delfält som  motsvarar delfält i 852 läggas under Har komponent för det ska bli korrekt. För att uppdatera en konverterad post som inte har Har komponent behöver du ta bort de konverterade fälten som ligger fel och lägga dem under Har komponent. 
@@ -51,8 +58,6 @@ Om ytterligare information om placering utöver Hyllkod behöver läggas till.
 
 * Hyllsignum: Löpnummer (852 ‡j)  ```Exempel: 2694```
  
-
-
 Många ytterligare fält kan läggas till i Har komponent - gå till plustecknet vid beståndet under Har komponent. Där kan du söka upp följande:
 * Tidigare hylluppställning (852 ‡d)
 * Precisering av hyllplacering (852 ‡g)
@@ -69,7 +74,6 @@ Många ytterligare fält kan läggas till i Har komponent - gå till plustecknet
 * Underordnad institution/enhet (852 ‡9)
 
 För att lägga till ytterligare ett bestånd (motsvarande flera 852) klickar du på plustecknet vid Har komponent.
-
 
 
 ### Adminmetadata
@@ -95,7 +99,6 @@ Välj önskad nivå:
   * Värde (024 ‡a)
   * Ogiltigt värde (024 ‡z)
   * Typanmärkning, bestämning till indikator 1=7 (024 ‡2)
-
 
 
 ### Anmärkningar
@@ -167,7 +170,6 @@ För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och ge
 * Lokala ämnesord/rubriker (övriga) (698)
   * Kod (698 ‡a)
   * Benämning (698 ‡b)
-
   
 
 * Klassifikation/DDK-klassifikation/Kod (082 ‡a)
