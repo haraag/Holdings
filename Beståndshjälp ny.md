@@ -211,7 +211,7 @@ Länk till den elektroniska resurs som är den bibliografisk resurs som beskrivs
 * Annan relaterad resurs / Elektronisk (val vid Skapa lokal entitet) (856 4/1)
 Länk till elektronisk resurs av en icke elektronisk bibliografisk resurs som beskrivits
 
-* Är huvudämne för / Dokument (val vid Skapa lokal entitet) (856 4/2)
+* Relaterad beskrvining eller innehåll / Dokument (val vid Skapa lokal entitet) (856 4/2)
 Länk till relaterad resurs till den bibliografiska resursen, men som inte är en annan resurs. Entiteten Del av materialet som beskrivs ($3) kan användas för att beskriva relationen.
 
 * Relaterad till  / Dokument (val vid Skapa lokal entitet) (856 4/8)
