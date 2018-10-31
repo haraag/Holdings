@@ -271,4 +271,4 @@ Ospecificerad relation
 * Lokalt definierat beståndsfält (beståndsfält 948)
 * Lokalt definierat beståndsfält (beståndsfält 949)
 Beståndsfält a-z, A-Z samt 0-9 kan läggas till.
-Sök upp dett fält som önskas, t.ex. Beståndsfält 948, delfält a
+Sök upp det fält som önskas, t.ex. Beståndsfält 948, delfält a
