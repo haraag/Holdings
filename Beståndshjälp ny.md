@@ -65,7 +65,7 @@ Många ytterligare fält kan läggas till i Har komponent - gå till plustecknet
 * Precisering av hyllplacering (852 ‡g)
 * Exemplarstatus (852 ‡i) / Klicka på plustecknet vid Exemplarstatus / Du kan länka till ett antal vanliga beskrivningar. Du får fram dessa genom att söka med asterisk.  Andra beskrivningar skapar du istället som lokal entitet   - du får då ett nytt fält Exemplarstatus där du klickar på plusikonen och väljer Benämning. 
 * Prefix för lokalsignum (852 ‡k)
-* Sufffix för lokalsignum (852 ‡m)
+* Suffix för lokalsignum (852 ‡m)
 * Unik exemplarbeteckning (streckkod) (852 ‡p)
 * Exemplarets fysiska tillstånd (852 ‡q)
 * Exemplarnummer (852 ‡t)
