@@ -23,7 +23,7 @@ Klicka på pilen intill Bestånd för att expandera. Där kan följande läggas 
 Här läggs uppställning efter klassifikation eller annan hyllkod.
 <br/>```Exempel: 158.1```
 
-* Hyllplacering (Avdelning,samling) (852 ‡c)
+* Hyllplacering (Avdelning, samling) (852 ‡c)
 Används då ytterligare information om placering utöver Hyllkod behöver läggas till.
 <br/>```Exempel: Institution 14```
 
