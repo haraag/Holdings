@@ -42,6 +42,8 @@ För att lägga till ytterligare ett Bestånd (motsvarande flera 852): Lägg til
 
 ### Oformaterad beståndsuppgift - huvudpublikation (866)
 
+![Oformaterad beståndsuppgift](oformateradbestand.png)
+
 * Beståndsuppgift (866 ‡a)
 * Katalogisatörens anmärkning (866 ‡x)
 * Offentlig anmärkning (866 ‡z)
