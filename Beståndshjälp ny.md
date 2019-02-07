@@ -78,6 +78,7 @@ Många ytterligare egenskaper kan läggas till för Har komponent - gå till plu
 * Anmärkning (hasNote) (852 ‡z) / Klicka på plustecknet direkt vid Anmärkning (Note) / Klicka på pilen. Du får då fram fältet Benämning.     ```Exempel: S. [7]-[8] saknas```
 <br/>
 ![Del av materialet som avses](delavmaterial.png)
+<br/>
 * Del av materialet som avses (852 ‡3) / Resurs (val vid Skapa lokal entitet) / Benämning 
 * Underordnad institution/enhet (852 ‡9)
 
