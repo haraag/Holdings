@@ -13,11 +13,11 @@ tags:
 
 Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när du väljer att lägga bestånd. (852 ‡b)
 
-Du kan lägga på bestånd direkt ifrån träfflistan. Från träfflistan kan du se om ditt bibliotek har bestånd och hur många andra bibliotek som har bestånd.
+Bestånd kan läggas direkt ifrån träfflistan. Från träfflistan ser du om ditt bibliotek har bestånd och hur många andra bibliotek som har bestånd.
 
 De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via plustecknet för bestånd. Det är viktigt använda rätt plustecken. 
 
-Plustecken i sidorutan Lägg till entitet används för vad som motsvarande fält i marc. 
+Plustecken i sidorutan Lägg till egenskaper under bestånd används för vad som motsvarande fält i marc. 
 
 Plustecken intill det som valts väljer man det som motsvarar delfält.
 
@@ -28,19 +28,19 @@ Plustecken intill det som valts väljer man det som motsvarar delfält.
 
 [Identifierare](#identifierare)
 
-[Anmärkningar](#anmärkningar)
+[Anmärkningar](#anmarkningar)
 
-[Lokala ämnesord och klassifikation](#lokala-ämnesord-och-klassifikation)
+[Lokala ämnesord och klassifikation](#lokala-amnesord-och-klassifikation)
 
 [Agenter](#agenter)
 
 [Elektronisk adress](#elektronisk-adress)
 
-[Oformaterad beståndsuppgift](#oformaterad-beståndsuppgift)
+[Oformaterad beståndsuppgift](#oformaterad-bestandsuppgift)
 
 [Exemplarinformation](#exemplarinformation)
 
-[Lokalt definierade beståndsfält](#lokalt-definierade-beståndsfält)
+[Lokalt definierade beståndsfält](#lokalt-definierade-bestandsfalt)
 
 
 ### Har komponent
@@ -48,35 +48,38 @@ Plustecken intill det som valts väljer man det som motsvarar delfält.
 OBS! I konverterade data med bara ett 852 ligger delfälten inte under Har komponent. Vid skapande av nytt bestånd måste de delfält som  motsvarar delfält i 852 läggas under Har komponent för det ska bli korrekt. För att uppdatera en konverterad post som inte har Har komponent behöver du ta bort de konverterade fälten som ligger fel och lägga dem under Har komponent. 
 
 I Bestånd finns följande fält färdiga:
+* Hyllplacering (Avdelning,samling) (852 ‡c)
+Om ytterligare information om placering utöver Hyllkod behöver läggas till.
+  ```Exempel: Institution 140```
+  
 * Hyllkod (852 ‡h)
 Här lägger du uppställning efter klassifikation eller annan hyllkod
   ```Exempel: 158.1```
 
-* Hyllplacering (Avdelning,samling) (852 ‡c)
-Om ytterligare information om placering utöver Hyllkod behöver läggas till.
-  ```Exempel: Institution 140```
-
 * Hyllsignum: Uppställningsord (852 ‡l)  ```Exempel: AND```
 
 * Hyllsignum: Löpnummer (852 ‡j)  ```Exempel: 2694```
+
+* Katalogisatörens anmärkning (852 ‡x)
  
-Många ytterligare fält kan läggas till i Har komponent - gå till plustecknet vid beståndet under Har komponent. Där kan du söka upp följande:
+Många ytterligare egenskaper kan läggas till för Har komponent - gå till plustecknet vid beståndet under Har komponent. Där kan du söka upp följande:
 * Tidigare hylluppställning (852 ‡d)
 * Precisering av hyllplacering (852 ‡g)
-* Exemplarstatus (852 ‡i) / Klicka på plustecknet vid Exemplarstatus / Du kan länka till ett antal vanliga beskrivningar. Du får fram dessa genom att söka med asterisk.  Andra beskrivningar skapar du istället som lokal entitet   - du får då ett nytt fält Exemplarstatus där du klickar på plusikonen och väljer Benämning. 
+![Exemplarstatus](exemplastatus.png)
+* Exemplarstatus (852 ‡i) / Klicka på plustecknet vid Exemplarstatus - Lägg till exemplarplarstatus / Ett antal vanliga beskrivningar finns att länka till. Sök fram dessa med en asterisk. Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under Exemplarstatus och klicka sedan påplusikonen och välj Benämning.
+
 * Prefix för lokalsignum (852 ‡k)
 * Suffix för lokalsignum (852 ‡m)
 * Unik exemplarbeteckning (streckkod) (852 ‡p)
 * Exemplarets fysiska tillstånd (852 ‡q)
 * Exemplarnummer (852 ‡t)
 * URI (852 ‡u)
-* Katalogisatörens anmärkning (852 ‡x)
-* Anmärkning (hasNote) (852 ‡z) / Klicka på plustecknet direkt vid Anmärkning (Note) / Klicka på pilen. Du får då fram fältet Benämning. Skriv in din offentliga anmärkning 
+* Anmärkning (hasNote) (852 ‡z) / Klicka på plustecknet direkt vid Anmärkning (Note) / Klicka på pilen. Du får då fram fältet Benämning.     ```Exempel: S. [7]-[8] saknas```
+![Del av materialet som avses](delavmaterial.png)
 * Del av materialet som avses (852 ‡3) / Resurs (val vid Skapa lokal entitet) / Benämning 
 * Underordnad institution/enhet (852 ‡9)
 
-För att lägga till ytterligare ett bestånd (motsvarande flera 852) klickar du på plustecknet vid Har komponent.
-
+Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett bestånd (motsvarande flera 852)
 
 ### Adminmetadata
 För enkla monografier behöver vanligen inte Adminmetadata läggas till eller ändras. *Hör av dig till Supportforumet om du saknar möjlighet att lägga till Adminmetadata som ditt bibliotek behöver.*
@@ -103,7 +106,7 @@ Välj önskad nivå:
   * Typanmärkning, bestämning till indikator 1=7 (024 ‡2)
 
 
-### Anmärkningar
+### Anmarkningar
 * Anmärkning/hasNote (500 ‡a). Klicka på plustecknet vid Anmärkning för att lägga till en allmän anmärkning. 
 
 * Villkor för användning och åtkomst/Välj Skapa lokal entitet / Villkor som användning och åtkomst
@@ -160,7 +163,7 @@ Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet ti
 
 
 
-### Lokala ämnesord och klassifikation
+### Lokala amnesord och klassifikation
 Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
 För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och genre/form
 
@@ -227,7 +230,7 @@ Ospecificerad relation
 
 
 
-### Oformaterad beståndsuppgift
+### Oformaterad bestandsuppgift
 * Beståndsuppgift (866 ‡a)
 * Katalogisatörens anmärkning (866 ‡x)
 * Offentlig anmärkning (866 ‡z)
@@ -266,7 +269,7 @@ Ospecificerad relation
   * Underordnad institution/enhet (876 ‡9)
 
 
-### Lokalt definierade beståndsfält
+### Lokalt definierade bestandsfalt
 *OBS! Tillsvidare måste indikator 1 och 2 läggas till för att fälten ska kunna exporteras
 * Lokalt definierat beståndsfält (beståndsfält 948)
 * Lokalt definierat beståndsfält (beståndsfält 949)
