@@ -65,7 +65,8 @@ Här lägger du uppställning efter klassifikation eller annan hyllkod
 Många ytterligare egenskaper kan läggas till för Har komponent - gå till plustecknet vid beståndet under Har komponent. Där kan du söka upp följande:
 * Tidigare hylluppställning (852 ‡d)
 * Precisering av hyllplacering (852 ‡g)
-![Exemplarstatus](exemplastatus.png)
+<br/>
+![Exemplarstatus](exemplarstatus.png)
 * Exemplarstatus (852 ‡i) / Klicka på plustecknet vid Exemplarstatus - Lägg till exemplarplarstatus / Ett antal vanliga beskrivningar finns att länka till. Sök fram dessa med en asterisk. Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under Exemplarstatus och klicka sedan påplusikonen och välj Benämning.
 
 * Prefix för lokalsignum (852 ‡k)
