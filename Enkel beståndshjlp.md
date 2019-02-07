@@ -35,7 +35,7 @@ Här läggs uppställning efter klassifikation eller annan hyllkod.
 <br/>```Exempel: 2594```
 
 * Katalogisatörens anmärkning (852 ‡x)
-<br/>```Exempel: HAA``
+<br/>```Exempel: HAA```
 
 
 För att lägga till ytterligare ett Bestånd (motsvarande flera 852): Lägg till bestånd genom att klicka på plustecknet vid Har komponent, ett ytterligare bestånd läggs då till.
@@ -45,6 +45,6 @@ För att lägga till ytterligare ett Bestånd (motsvarande flera 852): Lägg til
 * Beståndsuppgift (866 ‡a)
 * Katalogisatörens anmärkning (866 ‡x)
 * Offentlig anmärkning (866 ‡z)
-* Underordnad institution/enhet (866 ‡9) (Ej med i mallen, men kan läggas till
+* Underordnad institution/enhet (866 ‡9) (Ej med i mallen, lägg till egenskapen vid Oformaterad beståndsuppgift)
 
 
