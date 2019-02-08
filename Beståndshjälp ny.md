@@ -69,8 +69,9 @@ Många ytterligare egenskaper kan läggas till för Har komponent - gå till plu
 
 ![Exemplarstatus](exemplarstatus.png)
 
-<br/>
+
 * Exemplarstatus (852 ‡i) / Klicka på plustecknet vid Exemplarstatus - Lägg till exemplarplarstatus / Ett antal vanliga beskrivningar finns att länka till. Sök fram dessa med en asterisk. Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under Exemplarstatus och klicka sedan påplusikonen och välj Benämning.
+
 
 * Prefix för lokalsignum (852 ‡k)
 * Suffix för lokalsignum (852 ‡m)
@@ -84,6 +85,7 @@ Många ytterligare egenskaper kan läggas till för Har komponent - gå till plu
 ![Del av materialet som avses](delavmaterial.png)
 
 <br/>
+
 * Del av materialet som avses (852 ‡3) / Resurs (val vid Skapa lokal entitet) / Benämning 
 * Underordnad institution/enhet (852 ‡9)
 
