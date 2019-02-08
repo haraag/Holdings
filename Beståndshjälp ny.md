@@ -66,7 +66,9 @@ Många ytterligare egenskaper kan läggas till för Har komponent - gå till plu
 * Tidigare hylluppställning (852 ‡d)
 * Precisering av hyllplacering (852 ‡g)
 <br/>
+
 ![Exemplarstatus](exemplarstatus.png)
+
 <br/>
 * Exemplarstatus (852 ‡i) / Klicka på plustecknet vid Exemplarstatus - Lägg till exemplarplarstatus / Ett antal vanliga beskrivningar finns att länka till. Sök fram dessa med en asterisk. Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under Exemplarstatus och klicka sedan påplusikonen och välj Benämning.
 
@@ -104,7 +106,6 @@ Välj önskad nivå:
 
 * Katalogisatörens anmärkning (599 ‡a)
  
- ![Del av materialet som avses](delavmaterial.png)
 
 ### Identifierare
 * Identifikator (IdentifiedBy) / Välj en typ från lista (024 indikator 1)
