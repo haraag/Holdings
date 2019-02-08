@@ -102,6 +102,7 @@ Välj önskad nivå:
 
 * Katalogisatörens anmärkning (599 ‡a)
  
+ ![Del av materialet som avses](delavmaterial.png)
 
 ### Identifierare
 * Identifikator (IdentifiedBy) / Välj en typ från lista (024 indikator 1)
