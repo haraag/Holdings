@@ -120,8 +120,8 @@ Lägg till egenskaper under Bestånd/Villkor som användning och åtkomst/Lägg 
 
 ![Villkor för anvandning](Villkoranvbenamn.png)
 
-  * Benämning (506 ‡a)
-  * Tillståndsgivare (506 ‡b)
+    * Benämning (506 ‡a)
+    * Tillståndsgivare (506 ‡b)
   * Fysiska omständigheter (506 ‡c)
   * Godkända användare (506 ‡d)
   * Laglig grund för restriktion (506 ‡e)
