@@ -170,8 +170,8 @@ Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet ti
 
 ### Lokala amnesord och klassifikation
 Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
-* Ämnesord
-Se [hjälp om ämnesord i Libris] (https://libris.kb.se/katalogisering/help/workflow-general-sh)
+* För Ämnesord
+Se [hjälp om ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)
 
 
 * Lokala ämnesord/rubriker (övriga) (698)
@@ -181,7 +181,7 @@ Se [hjälp om ämnesord i Libris] (https://libris.kb.se/katalogisering/help/work
  
   
 
-* Klassifikation
+* För Klassifikation
 Se [hjlälp om klassifikation] (https://libris-dev.kb.se/katalogisering/help/workflow-print-monograph#klassifikation)
 
 
