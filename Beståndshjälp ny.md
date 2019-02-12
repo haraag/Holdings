@@ -21,27 +21,19 @@ Plustecken i sidorutan Lägg till egenskaper under bestånd används för vad so
 
 Plustecken intill det som valts väljer man det som motsvarar delfält.
 
-### Innehållsförteckning
-[Har komponent](#har-komponent)
+### Innehåll   
 
-[Adminmetada](#adminmetadata)
-
-[Identifierare](#identifierare)
-
-[Anmärkningar](#anmarkningar)
-
-[Lokala ämnesord och klassifikation](#lokala-amnesord-och-klassifikation)
-
-[Agenter](#agenter)
-
-[Elektronisk adress](#elektronisk-adress)
-
-[Oformaterad beståndsuppgift](#oformaterad-bestandsuppgift)
-
-[Exemplarinformation](#exemplarinformation)
-
-[Lokalt definierade beståndsfält](#lokalt-definierade-bestandsfalt)
-
+| [Adminmetadata](#adminmetadata)  | [Bestånd](#bestånd) | 
+| -----------  |  ----------- |
+| [Adminmetadata](#adminmetadata) | [Har komponent](#har-komponent) |
+| | [Identifierare](#identifierare) |
+| | [Anmärkningar](#anmarkningar) |
+| | [Lokala ämnesord och klassifikation](#lokala-amnesord-och-klassifikation) |
+| | [Agenter](#agenter)  |
+| | [Elektronisk adress](#elektronisk-adress) |
+| | [Oformaterad beståndsuppgift](#oformaterad-bestandsuppgift) |
+| | [Exemplarinformation](#exemplarinformation) |
+| | [Lokalt definierade beståndsfält](#lokalt-definierade-bestandsfalt) |
 
 ### Har komponent
 (852)
