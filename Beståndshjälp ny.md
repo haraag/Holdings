@@ -194,7 +194,7 @@ För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och ge
 
 ### Agenter - Personer och Organisationer
 Här anges agenter som hör till bestånd eller exemplarbeteckning.
-Länka till auktoriteter i första hand, men det går att skapa en lokal entitet för en agent.
+Länka till auktoriteter i första hand, men det går att skapa en lokal entitet för en agent. Se hjälpen [Relationer till Agent]( https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
 * Medverkan och funktion / Medverkan / Agent
   * Person / Efternamn / Förnamn / Levnadsår / Funktion (700 1/_)
   * Person / Namn/ Levnadsår / Funktion (700 0/_)
