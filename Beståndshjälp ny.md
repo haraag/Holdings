@@ -195,7 +195,7 @@ För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och ge
 ### Agenter - Personer och Organisationer
 Här anges agenter som hör till bestånd eller exemplarbeteckning.
 Länka till auktoriteter i första hand, men det går att skapa en lokal entitet för en agent. Se hjälpen [Relationer till Agent]( https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
-  * För information om vilka delfält som kan läggas till se  [Hjälp](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation "Hjälp")
+  * Ytterligare hjälp finns i  [Relation till delar och verk](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation)
 
 ### Elektronisk adress
 Om du inte lägger till motsvarande indikator 1 exporteras värdet som 4 (http).
