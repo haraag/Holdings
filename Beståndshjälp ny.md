@@ -115,6 +115,7 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
 * Anmärkning/hasNote (500 ‡a). Lägg till anmärkning vid plustecknet vid Anmärkning. 
 
 * Villkor för användning och åtkomst (506)
+
 Lägg till egenskaper under Bestånd/Villkor som användning och åtkomst/Lägg till entitet/Skapa Lokal entitet/ Villkor som användning och åtkomst/Lägg till egenskaper under: Villkor för användning och åtkomst
 
 ![Villkor för anvandning](Villkoranvbenamn.png)
