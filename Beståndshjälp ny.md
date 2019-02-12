@@ -125,8 +125,7 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
  
 
 * Sammanfattning av innehåll (520)
-
-Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet till höger om sammanfattning för att lägga till delfält.
+* Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet till höger om sammanfattning för att lägga till delfält.
   * Benämning (520 ‡a)
   * Utförligare anmärkningstext (520 ‡b)
   * Instans som åsatt anmärkning/etikett (520 ‡c)
