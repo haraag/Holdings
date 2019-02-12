@@ -170,13 +170,8 @@ Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet ti
 
 ### Lokala amnesord och klassifikation
 Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
-För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och genre/form
+Se [hjälp om ämnesord i Libris] (https://libris.kb.se/katalogisering/help/workflow-general-sh)
 
-* Ämne (650_/4 ‡a)
-  * Allmänt ämnesord / Föredragen benämning
- 
-* Ämne (653 /0 ‡a)
-  * Allmänt ämnesord / Benämning
 
 * Lokala ämnesord/rubriker (övriga) (698)
   * Kod (698 ‡a)
