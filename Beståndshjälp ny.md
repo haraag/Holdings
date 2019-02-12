@@ -26,7 +26,6 @@ Plustecken intill det som valts väljer man det som motsvarar delfält.
 | [Adminmetadata](#adminmetadata)  | [Bestånd](#bestånd) | 
 | -----------  |  ----------- |
 | [Adminmetadata](#adminmetadata) | [Har komponent](#har-komponent) |
-| | [Identifierare](#identifierare) |
 | | [Anmärkningar](#anmarkningar) |
 | | [Lokala ämnesord och klassifikation](#lokala-amnesord-och-klassifikation) |
 | | [Agenter](#agenter)  |
@@ -103,12 +102,6 @@ Många ytterligare egenskaper kan läggas till för Har komponent - gå till plu
 
 Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett bestånd (motsvarande flera 852)
  
-
-### Identifierare
-* Identifikator (IdentifiedBy) / Välj en typ från lista (024 indikator 1)
-  * Värde (024 ‡a)
-  * Ogiltigt värde (024 ‡z)
-  * Typanmärkning, bestämning till indikator 1=7 (024 ‡2)
 
 
 ### Anmarkningar
