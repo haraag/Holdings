@@ -35,6 +35,24 @@ Plustecken intill det som valts väljer man det som motsvarar delfält.
 | | [Exemplarinformation](#exemplarinformation) |
 | | [Lokalt definierade beståndsfält](#lokalt-definierade-bestandsfalt) |
 
+
+### Adminmetadata
+För enkla monografier behöver vanligen inte Adminmetadata läggas till eller ändras. *Hör av dig till Supportforumet om du saknar möjlighet att lägga till Adminmetadata som ditt bibliotek behöver.*
+* Posttyp. Om inget val görs blir värdet (000 [6] u). För att ändra värde lägg till Posttyp och välj i lista (000 [6])
+  * Fortlöpande (seriell eller integrerande) resurs) (000 [6] y)
+  * Monografisk resurs (000 [6] x)
+  * Monografisk resurs (1 bibliografisk post med flera delar) (000 [6] v)
+  
+* Beskrivningsnivå (000 [17])
+Välj önskad nivå:
+  * 1 Nivå 1 (grundnivå endast 852). Normalnivå för monografier
+  * 3	Nivå 3 (summariskt bestånd i 853-855 och/eller 86X) (Beståndpost med nivå 3 måste innehålla minst ett fält 866)
+  * 4	Nivå 4 (detaljerat bestånd i 853-855 och/eller 86X)	
+  * 5	Nivå 5 (detaljerat bestånd, inkl. exemplarinformation, i 853-855 och/eller 86X)
+  * z	Annan nivå
+
+* Katalogisatörens anmärkning (599 ‡a)
+
 ### Har komponent
 (852)
 OBS! I konverterade data med bara ett 852 ligger delfälten inte under Har komponent. Vid skapande av nytt bestånd måste de delfält som  motsvarar delfält i 852 läggas under Har komponent för det ska bli korrekt. För att uppdatera en konverterad post som inte har Har komponent behöver du ta bort de konverterade fälten som ligger fel och lägga dem under Har komponent. 
@@ -84,23 +102,6 @@ Många ytterligare egenskaper kan läggas till för Har komponent - gå till plu
 * Underordnad institution/enhet (852 ‡9)
 
 Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett bestånd (motsvarande flera 852)
-
-### Adminmetadata
-För enkla monografier behöver vanligen inte Adminmetadata läggas till eller ändras. *Hör av dig till Supportforumet om du saknar möjlighet att lägga till Adminmetadata som ditt bibliotek behöver.*
-* Posttyp. Om inget val görs blir värdet (000 [6] u). För att ändra värde lägg till Posttyp och välj i lista (000 [6])
-  * Fortlöpande (seriell eller integrerande) resurs) (000 [6] y)
-  * Monografisk resurs (000 [6] x)
-  * Monografisk resurs (1 bibliografisk post med flera delar) (000 [6] v)
-  
-* Beskrivningsnivå (000 [17])
-Välj önskad nivå:
-  * 1 Nivå 1 (grundnivå endast 852). Normalnivå för monografier
-  * 3	Nivå 3 (summariskt bestånd i 853-855 och/eller 86X) (Beståndpost med nivå 3 måste innehålla minst ett fält 866)
-  * 4	Nivå 4 (detaljerat bestånd i 853-855 och/eller 86X)	
-  * 5	Nivå 5 (detaljerat bestånd, inkl. exemplarinformation, i 853-855 och/eller 86X)
-  * z	Annan nivå
-
-* Katalogisatörens anmärkning (599 ‡a)
  
 
 ### Identifierare
