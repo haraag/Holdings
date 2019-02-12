@@ -170,6 +170,7 @@ Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet ti
 
 ### Lokala amnesord och klassifikation
 Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
+* Ämnesord
 Se [hjälp om ämnesord i Libris] (https://libris.kb.se/katalogisering/help/workflow-general-sh)
 
 
@@ -177,14 +178,13 @@ Se [hjälp om ämnesord i Libris] (https://libris.kb.se/katalogisering/help/work
   * Kod (698 ‡a)
   * Benämning (698 ‡b)
   
+ 
+  
 
-* Klassifikation / Skapa lokal entitet / DDK-klassifikation/Kod (082 ‡a)
-  * Klassifikationsupplaga (082 indikator 1). Det vanligaste alternativet kommer automatiskt ```full```
-  * Parallell upplagebetckning/Upplagespecifik upphovsuppgift (Utgåvans nummer och upphov (editionenumeration)) (082 ‡2). ```23/swe```
+* Klassifikation
+Se [hjlälp om klassifikation] (https://libris-dev.kb.se/katalogisering/help/workflow-print-monograph#klassifikation)
 
 
-* Klassifikation / Skapa lokal entitet / Klassifikation / Kod (084 ‡a)
-  * Termlista och Version (084 ‡2 ). Det vanligaste alternativet kommer automatiskt. Kod: ```kssb```, Version: ```8```
   
 
 ### Agenter
