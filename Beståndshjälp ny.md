@@ -109,9 +109,10 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
 
 * Villkor för användning och åtkomst (506)
 
-Lägg till egenskaper under Bestånd/Villkor som användning och åtkomst/Lägg till entitet/Skapa Lokal entitet/ Villkor som användning och åtkomst/Lägg till egenskaper under: Villkor för användning och åtkomst
-
 ![Villkor för anvandning](Villkoranvbenamn.png)
+
+* Lägg till egenskaper under Bestånd/Villkor som användning och åtkomst/Lägg till entitet/Skapa Lokal entitet/ Villkor som användning och åtkomst/Lägg till egenskaper under: Villkor för användning och åtkomst
+
 
   * Benämning (506 ‡a)
   * Tillståndsgivare (506 ‡b)
