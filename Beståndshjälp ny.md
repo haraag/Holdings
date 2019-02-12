@@ -192,10 +192,10 @@ För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och ge
   * Termlista och Version (084 ‡2 ). Det vanligaste alternativet kommer automatiskt. Kod: ```kssb```, Version: ```8```
   
 
-### Agenter - Personer och Organisationer
+### Agenter
 Här anges agenter som hör till bestånd eller exemplarbeteckning.
 Länka till auktoriteter i första hand, men det går att skapa en lokal entitet för en agent. Se hjälpen [Relationer till Agent]( https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
-  * Ytterligare hjälp finns i  [Relation till delar och verk](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation)
+  * För relationer till agenters verk se  [Relation till delar och verk](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation)
 
 ### Elektronisk adress
 Om du inte lägger till motsvarande indikator 1 exporteras värdet som 4 (http).
