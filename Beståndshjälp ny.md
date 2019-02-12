@@ -121,8 +121,10 @@ Lägg till egenskaper under Bestånd/Villkor som användning och åtkomst/Lägg 
   * Standardiserad terminologi för åtkomstbegränsning (506 ‡f)
   * URI (506 ‡u)
   * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (506 ‡3)
+ 
 
 * Sammanfattning av innehåll (520)
+
 Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet till höger om sammanfattning för att lägga till delfält.
   * Benämning (520 ‡a)
   * Utförligare anmärkningstext (520 ‡b)
