@@ -90,7 +90,7 @@ Många ytterligare egenskaper kan läggas till för Har komponent - gå till plu
 * URI (852 ‡u)
 * Anmärkning (hasNote) (852 ‡z) / Klicka på plustecknet direkt vid Anmärkning (Note) / Klicka på pilen. Du får då fram fältet Benämning.     ```Exempel: S. [7]-[8] saknas```
 
-* Del av materialet som avses (852 ‡3) / Resurs (val vid Skapa lokal entitet) / Benämning 
+* Del av materialet som avses (852 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
 <br/>
 
@@ -121,7 +121,7 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
   * Laglig grund för restriktion (506 ‡e)
   * Standardiserad terminologi för åtkomstbegränsning (506 ‡f)
   * URI (506 ‡u)
-  * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (506 ‡3)
+  *  Del av materialet som avses (506 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
  <br/>
 
 * Sammanfattning av innehåll (520)
@@ -143,7 +143,7 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
   * Accessionsnummer (541 ‡e)
   * Ägare (541 ‡f)
   * Anskaffningspris (541 ‡h)
-  * Del av materialet som avses (541 ‡3) / Resurs (val vid Skapa lokal entitet) / Benämning 
+  *  Del av materialet som avses (541 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
 <br/>
 
@@ -156,7 +156,7 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
   * Identifiering av version (562 ‡c)
   * Presentationsformat (562 ‡d)
   * Antal exemplar (562 ‡e)
-  * Del av materialet som avses (562 ‡3) / Resurs (val vid Skapa lokal entitet) / Benämning 
+  *  Del av materialet som avses (562 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
 
 * Har lokal anmärkning: Bokband (563)
@@ -167,7 +167,7 @@ Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet ti
 Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet till höger om Lokal anmärkning: Åtgärd för att lägga till delfält och indikator
   * Sekretessbelagd information / Klicka i boxen (583 indikator 1) 0 = ifylld, 1 = ej ifylld. *OBS! Det går ännu inte att ange Uppgift saknas - detta är under arbete.*
   * Benämning (583 ‡a)
-  * Del av materialet som avses (583 ‡3) / Resurs (val vid Skapa lokal entitet) / Benämning 
+  * Del av materialet som avses (563 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
     
 
 
@@ -219,7 +219,7 @@ Ospecificerad relation
   * Katalogisatörens anmärkning (856 ‡x)
   * Länktext (856 ‡y)
   * Offentlig anmärkning (856 ‡z)
-  * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (856 ‡3)
+  * Del av materialet som avses (856 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
 
 
@@ -243,23 +243,23 @@ Ospecificerad relation
   * Exemplarnummer (876 ‡t)
   * Katalogisatörens anmärkning (876 ‡x)
   * Offentlig anmärkning (876 ‡z)
-  * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (876 ‡3)
+  * Del av materialet som avses (876 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
   * Underordnad institution/enhet (876 ‡9)
 
 * Har exemplarinformation - bihang etc. (877)
   * Internt exemplarnummer (877 ‡a)
   * Ogiltigt/makulerat intern exemplarnummer (877 ‡b)
   * Förvärvspris (877 ‡c)
-  * Förvärvsdatum (876 ‡d)
-  * Förvärvskälla (876 ‡e)
-  * Begränsningar för användning (use) (876 ‡h)
-  * Tillfällig placering (876 ‡l)
-  * Unik exemplarbeteckning (streckkod) (876 ‡p)
+  * Förvärvsdatum (877 ‡d)
+  * Förvärvskälla (877 ‡e)
+  * Begränsningar för användning (use) (877 ‡h)
+  * Tillfällig placering (877 ‡l)
+  * Unik exemplarbeteckning (streckkod) (877 ‡p)
   * Exemplarnummer (876 ‡t)
   * Katalogisatörens anmärkning (876 ‡x)
-  * Offentlig anmärkning (876 ‡z)
-  * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (876 ‡3)
-  * Underordnad institution/enhet (876 ‡9)
+  * Offentlig anmärkning (877 ‡z)
+  * Del av materialet som avses (877 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
+  * Underordnad institution/enhet (877 ‡9)
 
 
 ### Lokalt definierade bestandsfalt
