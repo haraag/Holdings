@@ -125,15 +125,15 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
  
 
 * Sammanfattning av innehåll (520)
-Lägg till egenskaper under Bestånd/Sammanfattning av innehåll/Lägg till sammanfattning
+* Lägg till egenskaper under Bestånd/Sammanfattning av innehåll/Lägg till sammanfattning
   * Benämning (520 ‡a)
-Lägg till egenskaper under Sammanfattning
+* Lägg till egenskaper under Sammanfattning
   * Utförligare anmärkningstext (520 ‡b)
   * Instans som åsatt anmärkning/etikett (520 ‡c)
   * URI (520 ‡u)
 
 * Förvärvsuppgifter (541)
-KLägg till egenskaper under Bestånd/ Förvärvsuppgifter /Lägg till förvärvsvärsvuppgifter/ Skapa lokal entitet/Lägg till egenskaper under Förvärsuppgifter
+* Lägg till egenskaper under Bestånd/ Förvärvsuppgifter /Lägg till förvärvsvärsvuppgifter/ Skapa lokal entitet/Lägg till egenskaper under Förvärsuppgifter
   * Sekretessbelagd information / Klicka i boxen (541 indikator 1) 0 = ifylld, 1 = ej ifylld. *OBS! Det går ännu inte att ange Uppgift saknas - detta är under arbete.*
   * Förvärvskälla (541 ‡a)
   * Adress (541 ‡b)
