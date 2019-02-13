@@ -122,7 +122,7 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
   * Standardiserad terminologi för åtkomstbegränsning (506 ‡f)
   * URI (506 ‡u)
   * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (506 ‡3)
- 
+ <br/>
 
 * Sammanfattning av innehåll (520)
 * Lägg till egenskaper under Bestånd/Sammanfattning av innehåll/Lägg till sammanfattning
@@ -131,6 +131,7 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
   * Utförligare anmärkningstext (520 ‡b)
   * Instans som åsatt anmärkning/etikett (520 ‡c)
   * URI (520 ‡u)
+<br/>
 
 * Förvärvsuppgifter (541)
 * Lägg till egenskaper under Bestånd/ Förvärvsuppgifter /Lägg till förvärvsvärsvuppgifter/ Skapa lokal entitet/Lägg till egenskaper under Förvärsuppgifter
@@ -143,6 +144,8 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
   * Ägare (541 ‡f)
   * Anskaffningspris (541 ‡h)
   * Del av materialet som avses (541 ‡3) / Resurs (val vid Skapa lokal entitet) / Benämning 
+
+<br/>
 
 
 * Ägarhistorik (561 ‡a)
