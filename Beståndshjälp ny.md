@@ -143,7 +143,7 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
   * Accessionsnummer (541 ‡e)
   * Ägare (541 ‡f)
   * Anskaffningspris (541 ‡h)
-  *  Del av materialet som avses (541 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
+  * Del av materialet som avses (541 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
 <br/>
 
@@ -156,16 +156,15 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
   * Identifiering av version (562 ‡c)
   * Presentationsformat (562 ‡d)
   * Antal exemplar (562 ‡e)
-  *  Del av materialet som avses (562 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
+  * Del av materialet som avses (562 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
 
 * Har lokal anmärkning: Bokband (563)
-Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet till höger om Lokal anmärkning: Bokband för att lägga till delfält.
   * Benämning (563 ‡a)
 
 * Har lokal anmärkning: Åtgärd (583)
-Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet till höger om Lokal anmärkning: Åtgärd för att lägga till delfält och indikator
-  * Sekretessbelagd information / Klicka i boxen (583 indikator 1) 0 = ifylld, 1 = ej ifylld. *OBS! Det går ännu inte att ange Uppgift saknas - detta är under arbete.*
+Lägg till egenskaper under Lokal anmärkning Åtgärd/ Klicka därefter på plustecknet till höger om Lokal anmärkning: Åtgärd för att lägga till delfält och indikator
+  * Sekretessbelagd information / Klicka i boxen (583 indikator 1) 0 = ifylld, 1 = ej ifylld. 
   * Benämning (583 ‡a)
   * Del av materialet som avses (563 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
     
