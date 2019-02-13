@@ -125,14 +125,15 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
  
 
 * Sammanfattning av innehåll (520)
-Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet till höger om sammanfattning för att lägga till delfält.
+Lägg till egenskaper under Bestånd/Sammanfattning av innehåll/Lägg till sammanfattning
   * Benämning (520 ‡a)
+Lägg till egenskaper under Sammanfattning
   * Utförligare anmärkningstext (520 ‡b)
   * Instans som åsatt anmärkning/etikett (520 ‡c)
   * URI (520 ‡u)
 
 * Förvärvsuppgifter (541)
-Klicka på plustecknet för att lägga till. Gå till Skapa lokal entitet. Förvärvsuppgifter kommer då automatiskt.
+KLägg till egenskaper under Bestånd/ Förvärvsuppgifter /Lägg till förvärvsvärsvuppgifter/ Skapa lokal entitet/Lägg till egenskaper under Förvärsuppgifter
   * Sekretessbelagd information / Klicka i boxen (541 indikator 1) 0 = ifylld, 1 = ej ifylld. *OBS! Det går ännu inte att ange Uppgift saknas - detta är under arbete.*
   * Förvärvskälla (541 ‡a)
   * Adress (541 ‡b)
