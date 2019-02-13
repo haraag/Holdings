@@ -71,8 +71,9 @@ Här lägger du uppställning efter klassifikation eller annan hyllkod
 
 * Katalogisatörens anmärkning (852 ‡x)
  
-Många ytterligare egenskaper kan läggas till för Har komponent - gå till plustecknet vid beståndet under Har komponent. Där kan du söka upp följande:
+Många ytterligare egenskaper kan läggas till för Har komponent - Lägg till egenskaper under Bestånd vid Har Komponent. Där kan du söka upp följande:
 * Tidigare hylluppställning (852 ‡d)
+
 * Precisering av hyllplacering (852 ‡g)
 
 * Exemplarstatus (852 ‡i) / Klicka på plustecknet vid Exemplarstatus - Lägg till exemplarplarstatus / Ett antal vanliga beskrivningar finns att länka till. Sök fram dessa med en asterisk. Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under Exemplarstatus och klicka sedan påplusikonen och välj Benämning.
@@ -88,7 +89,7 @@ Många ytterligare egenskaper kan läggas till för Har komponent - gå till plu
 * Exemplarets fysiska tillstånd (852 ‡q)
 * Exemplarnummer (852 ‡t)
 * URI (852 ‡u)
-* Anmärkning (hasNote) (852 ‡z) / Klicka på plustecknet direkt vid Anmärkning (Note) / Klicka på pilen. Du får då fram fältet Benämning.     ```Exempel: S. [7]-[8] saknas```
+* Anmärkning (hasNote) (852 ‡z) /Lägg till anmärkning/Benämning     ```Exempel: S. [7]-[8] saknas```
 
 * Del av materialet som avses (852 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
