@@ -158,6 +158,7 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
   * Antal exemplar (562 ‡e)
   * Del av materialet som avses (562 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
+<br/>
 
 * Har lokal anmärkning: Bokband (563)
   * Benämning (563 ‡a)
@@ -165,7 +166,7 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
 <br/>
 
 * Har lokal anmärkning: Åtgärd (583)
-Lägg till egenskaper under Lokal anmärkning Åtgärd/ Klicka därefter på plustecknet till höger om Lokal anmärkning: Åtgärd för att lägga till delfält och indikator
+* Lägg till egenskaper under Lokal anmärkning Åtgärd/ Klicka därefter på plustecknet till höger om Lokal anmärkning: Åtgärd för att lägga till delfält och indikator
   * Sekretessbelagd information / Klicka i boxen (583 indikator 1) 0 = ifylld, 1 = ej ifylld. 
   * Benämning (583 ‡a)
   * Del av materialet som avses (563 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
