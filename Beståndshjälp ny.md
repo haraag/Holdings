@@ -135,7 +135,7 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
 
 * Förvärvsuppgifter (541)
 * Lägg till egenskaper under Bestånd/ Förvärvsuppgifter /Lägg till förvärvsvärsvuppgifter/ Skapa lokal entitet/Lägg till egenskaper under Förvärsuppgifter
-  * Sekretessbelagd information / Klicka i boxen (541 indikator 1) 0 = ifylld, 1 = ej ifylld. *OBS! Det går ännu inte att ange Uppgift saknas - detta är under arbete.*
+  * Sekretessbelagd information / Klicka i boxen (541 indikator 1) 0 = ifylld, 1 = ej ifylld. 
   * Förvärvskälla (541 ‡a)
   * Adress (541 ‡b)
   * Förvärvssättt (541 ‡c)
@@ -161,6 +161,8 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
 
 * Har lokal anmärkning: Bokband (563)
   * Benämning (563 ‡a)
+  
+<br/>
 
 * Har lokal anmärkning: Åtgärd (583)
 Lägg till egenskaper under Lokal anmärkning Åtgärd/ Klicka därefter på plustecknet till höger om Lokal anmärkning: Åtgärd för att lägga till delfält och indikator
@@ -194,6 +196,8 @@ se [hjälp om klassifikation](https://libris-dev.kb.se/katalogisering/help/workf
 Här anges agenter som hör till bestånd eller exemplarbeteckning.
 Länka till auktoriteter i första hand, men det går att skapa en lokal entitet för en agent. Se hjälpen [Relationer till Agent]( https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
   * För relationer till agenters verk se  [Relation till delar och verk](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation)
+
+<br/>
 
 ### Elektronisk adress
 Om du inte lägger till motsvarande indikator 1 exporteras värdet som 4 (http).
@@ -262,7 +266,7 @@ Ospecificerad relation
 
 
 ### Lokalt definierade bestandsfalt
-*OBS! Tillsvidare måste indikator 1 och 2 läggas till för att fälten ska kunna exporteras
+*OBS! Tillsvidare måste indikator 1 och 2 läggas till för att fälten ska kunna exporteras*
 * Lokalt definierat beståndsfält (beståndsfält 948)
 * Lokalt definierat beståndsfält (beståndsfält 949)
 Beståndsfält a-z, A-Z samt 0-9 kan läggas till.
