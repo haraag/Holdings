@@ -202,24 +202,15 @@ Länka till auktoriteter i första hand, men det går att skapa en lokal entitet
 <br/>
 
 ### Elektronisk adress
-Om du inte lägger till motsvarande indikator 1 exporteras värdet som 4 (http).
-* Elektronisk adress / Mediaobjekt (val vid Skapa lokal entitet) (856 4/_)
-Ingen information om relation mellan den elektroniska resursen och bibliografiska resurs som beskrivis
-
 * Tillhörande media / Mediaobjekt (val vid Skapa lokal entitet) (856 4/0)
 Länk till den elektroniska resurs som är den bibliografisk resurs som beskrivs
 
 * Annan relaterad resurs / Elektronisk (val vid Skapa lokal entitet) (856 4/1)
 Länk till elektronisk resurs av en icke elektronisk bibliografisk resurs som beskrivits
 
-* Relaterad beskrvining eller innehåll / Dokument (val vid Skapa lokal entitet) (856 4/2)
+* Relaterad beskrivning eller innehåll / Dokument (val vid Skapa lokal entitet) (856 4/2)
 Länk till relaterad resurs till den bibliografiska resursen, men som inte är en annan resurs. Entiteten Del av materialet som beskrivs ($3) kan användas för att beskriva relationen.
 
-* Relaterad till  / Dokument (val vid Skapa lokal entitet) (856 4/8)
-Ospecificerad relation
-
-  * Värddator (856 ‡a)
-  * Elektroniskt namn (856 ‡f)
   * URI (856 ‡u)
   * Katalogisatörens anmärkning (856 ‡x)
   * Länktext (856 ‡y)
