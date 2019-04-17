@@ -91,7 +91,7 @@ Många ytterligare egenskaper kan läggas till för Har komponent - Lägg till e
 * URI (852 #u)
 * Anmärkning (hasNote) (852 #z) /Lägg till anmärkning/Benämning     ```Exempel: S. [7]-[8] saknas```
 
-* Del av materialet som avses (852 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
+* Del av materialet som avses (852 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
 <br/>
 
@@ -250,7 +250,7 @@ Egenskaper att lägga till:
   * Förvärvspris (877 #c)
   * Förvärvsdatum (877 #d)
   * Förvärvskälla (877 #e)
-  * Begränsningar för användning (use) (877 ‡h)
+  * Begränsningar för användning (use) (877 #h)
   * Tillfällig placering (877 #l)
   * Unik exemplarbeteckning (streckkod) (877 #p)
   * Ogiltig/makulerad intern exemplarbeteckning (877 #r)
