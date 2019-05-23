@@ -10,6 +10,7 @@ tags:
 --- 
 
 ## Enkel beståndsregistrering
+Det går att lägga till bestånd med kortkommandot alt+b.
 
 Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när ett bestånd läggs till.
 
