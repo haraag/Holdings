@@ -41,13 +41,8 @@ För enkla monografier behöver vanligen inte Adminmetadata läggas till eller �
   * Monografisk resurs (000 [6] x)
   * Monografisk resurs (1 bibliografisk post med flera delar) (000 [6] v)
   
-* Beskrivningsnivå (000 [17]) *OBS! Beskrivningsnivåer för bestånd är under utredning. Hör av dig till Katalogsupporten ifall ditt bibliotek har behov av särskilda beskrivningsnivåer.* 
-Välj önskad nivå:
-  * Beståndsnivå 1 (grundnivå, endast 852). Normalnivå för monografier
-  * Beståndsnivå 3 (summariskt bestånd i 853-855 och/eller 86X) (Beståndpost med nivå 3 måste innehålla minst ett fält 866)
-  * Beståndsnivå 4 (detaljerat bestånd i 853-855 och/eller 86X)	
-  * Beståndsnivå 5 (detaljerat bestånd, inkl. exemplarinformation, i 853-855 och/eller 86X)
-  * Om ingen beskrivningsnivå anges exporteras z i000 [17] 
+* Beskrivningsnivå (000 [17]) 
+Beskrivningsnivå anges inte för bestånd. Defalultvärde är u. Vid export till lokalt system hamnar information i 841 $e.
 
 * Katalogisatörens anmärkning (599 ‡a)
 
