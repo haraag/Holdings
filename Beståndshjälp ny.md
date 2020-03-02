@@ -2,7 +2,7 @@
 section: Hjälptexter bestånd
 title: Beståndsregistrering
 order: 136
-date: 2019-10-17
+date: 2020-03-02
 tags:
 - under arbete
 - bestånd
@@ -10,9 +10,10 @@ tags:
 --- 
 
 # Beståndsregistrering
+
 Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när du väljer att lägga bestånd. (852 #b)
 
-Bestånd kan läggas direkt ifrån träfflistan. Från träfflistan ser du om ditt bibliotek har bestånd och hur många andra bibliotek som har bestånd. ortkommando för att lägga bestånd är alt+b.
+Bestånd kan läggas direkt ifrån träfflistan. Från träfflistan ser du om ditt bibliotek har bestånd och hur många andra bibliotek som har bestånd. Kortkommando för att lägga bestånd är alt+b.
 
 De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via plustecknet för bestånd. Det är viktigt använda rätt plustecken. 
 
@@ -20,7 +21,9 @@ Plustecken i sidorutan Lägg till egenskaper under bestånd används för vad so
 
 Plustecken intill det som valts väljer man det som motsvarar delfält.
 
-### Innehåll   
+Du behöver inte ta bort tomma egenskaper när du sparar. Systemet tar bort dem automatiskt.
+
+## Innehåll   
 
 | [Adminmetadata](#adminmetadata)  | [Bestånd](#bestånd) | 
 | -----------  |  ----------- |
@@ -34,35 +37,36 @@ Plustecken intill det som valts väljer man det som motsvarar delfält.
 | | [Lokalt definierade beståndsfält](#lokalt-definierade-bestandsfalt) |
 
 
-### Adminmetadata
+## Adminmetadata
 För enkla monografier behöver vanligen inte Adminmetadata läggas till eller ändras. *Hör av dig till Supportforumet om du saknar möjlighet att lägga till Adminmetadata som ditt bibliotek behöver.*
 * Posttyp. Om inget val görs blir värdet (000 [6] u). För att ändra värde lägg till Posttyp och välj i lista (000 [6])
   * Fortlöpande (seriell eller integrerande) resurs) (000 [6] y)
   * Monografisk resurs (000 [6] x)
   * Monografisk resurs (1 bibliografisk post med flera delar) (000 [6] v)
   
-* Beskrivningsnivå (000 [17]) 
-
-Beskrivningsnivå anges inte för bestånd. Defalultvärde är u. Vid export till lokalt system hamnar informationen i 841 #e.
+* Beskrivningsnivå (000 [17])
+  * Beskrivningsnivå anges inte för bestånd. Defalultvärde är u. Vid export till lokalt system hamnar informationen i 841 #e.
 
 * Katalogisatörens anmärkning (599 #a)
 
-### Har komponent
+## Har komponent
 (852)
 OBS! I konverterade data med bara ett 852 ligger delfälten inte under Har komponent. Vid skapande av nytt bestånd måste de delfält som  motsvarar delfält i 852 läggas under Har komponent för det ska bli korrekt. För att uppdatera en konverterad post som inte har Har komponent behöver du ta bort de konverterade fälten som ligger fel och lägga dem under Har komponent. 
 
 I Bestånd finns följande fält färdiga:
 * Hyllplacering (Avdelning,samling) (852 #c)
 Om ytterligare information om placering utöver Hyllkod behöver läggas till.
-  ```Exempel: Institution 140```
+<br/>```Exempel: Institution 140```
   
 * Hyllkod (852 #h)
 Här lägger du uppställning efter klassifikation eller annan hyllkod
-  ```Exempel: 158.1```
+<br/>```Exempel: 158.1```
 
-* Hyllsignum: Uppställningsord (852 #l)  ```Exempel: AND```
+* Hyllsignum: Uppställningsord (852 #l)
+<br/>```Exempel: AND```
 
-* Hyllsignum: Löpnummer (852 #j)  ```Exempel: 2694```
+* Hyllsignum: Löpnummer (852 #j)
+<br/>```Exempel: 2694```
 
 * Katalogisatörens anmärkning (852 #x)
  
@@ -71,11 +75,17 @@ Många ytterligare egenskaper kan läggas till för Har komponent - Lägg till e
 
 * Precisering av hyllplacering (852 #g)
 
-* Exemplarstatus (852 ‡#) / Klicka på plustecknet vid Exemplarstatus - Lägg till exemplarplarstatus / Ett antal vanliga beskrivningar finns att länka till. Sök fram dessa med en asterisk. Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under Exemplarstatus och klicka sedan påplusikonen och välj Benämning.
+* Exemplarstatus (852 #i) 
+Klicka på plustecknet vid Exemplarstatus - Lägg till exemplarplarstatus. Ett antal vanliga beskrivningar finns att länka till. Sök fram dessa med en asterisk. 
 
-<br/>
+**Exempel länkad exemplarstatus:**
+<br/>![Exempel länkad exemplarstatus](lankadexemplarstatus.png)
 
-![Exemplarstatus](exemplarstatus.png)
+Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under Exemplarstatus och klicka sedan på plusikonen och välj Benämning.
+
+
+**Exempel på exemplarstatus som lokal entitet:**
+<br/>![Exempel på exemplarstatus som lokal entitet](exemplarstatus.png)
 
 
 * Prefix för lokalsignum (852 #k)
@@ -84,28 +94,25 @@ Många ytterligare egenskaper kan läggas till för Har komponent - Lägg till e
 * Exemplarets fysiska tillstånd (852 #q)
 * Exemplarnummer (852 #t)
 * URI (852 #u)
-* Anmärkning (hasNote) (852 #z) /Lägg till anmärkning/Benämning     ```Exempel: S. [7]-[8] saknas```
+* Anmärkning (hasNote) (852 #z) /Lägg till anmärkning/Benämning
+<br/>```Exempel: S. [7]-[8] saknas```
 
 * Del av materialet som avses (852 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
-<br/>
-
-![Del av materialet som avses](delavmaterial.png)
-
-<br/>
+**Exempel på Del av materialet som avses:**
+<br/>![Exempel på Del av materialet som avses](delavmaterial.png)
 
 * Underordnad institution/enhet (852 #9)
 
 Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett bestånd (motsvarande flera 852)
- 
 
-
-### Anmarkningar
+## Anmarkningar
 * Anmärkning/hasNote (500 #a). Lägg till anmärkning vid plustecknet vid Anmärkning. 
 
 * Villkor för användning och åtkomst (506)
 
-![Villkor för anvandning](Villkoranvbenamn.png)
+**Exempel på Villkor för användning och åtkomst:**
+<br/>![Exempel på Villkor för användning och åtkomst](Villkoranvbenamn.png)
 
 * Lägg till egenskaper under Bestånd/Villkor som användning och åtkomst/Lägg till entitet/Skapa Lokal entitet/ Villkor som användning och åtkomst/Lägg till egenskaper under: Villkor för användning och åtkomst
 
@@ -118,7 +125,6 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
   * Standardiserad terminologi för åtkomstbegränsning (506 #f)
   * URI (506 #u)
   *  Del av materialet som avses (506 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
- <br/>
 
 * Sammanfattning av innehåll (520)
 * Lägg till egenskaper under Bestånd/Sammanfattning av innehåll/Lägg till sammanfattning
@@ -127,10 +133,9 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
   * Utförligare anmärkningstext (520 #b)
   * Instans som åsatt anmärkning/etikett (520 #c)
   * URI (520 #u)
-<br/>
 
 * Förvärvsuppgifter (541)
-* Lägg till egenskaper under Bestånd/ Förvärvsuppgifter /Lägg till förvärvsvärsvuppgifter/ Skapa lokal entitet/Lägg till egenskaper under Förvärsuppgifter
+* Lägg till egenskaper under Bestånd/ Förvärvsuppgifter /Lägg till förvärvsuppgifter /Skapa lokal entitet /Lägg till egenskaper under Förvärsuppgifter
   * Sekretessbelagd information / Klicka i boxen (541 indikator 1) 0 = ifylld, 1 = ej ifylld. 
   * Förvärvskälla (541 #a)
   * Adress (541 #b)
@@ -141,10 +146,7 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
   * Anskaffningspris (541 #h)
   * Del av materialet som avses (541 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
-<br/>
-
-
-* Ägarhistorik (561 ‡a)
+* Ägarhistorik (561 #a)
 
 * Har lokal anmärkning: Identifiering av exemplar, kopia eller version (562)
   * Igenkänningstecken (562 #a) 
@@ -154,50 +156,33 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
   * Antal exemplar (562 #e)
   * Del av materialet som avses (562 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
-<br/>
-
 * Har lokal anmärkning: Bokband (563)
   * Benämning (563 #a)
-  
-<br/>
 
 * Har lokal anmärkning: Åtgärd (583)
 * Lägg till egenskaper under Lokal anmärkning Åtgärd/ Klicka därefter på plustecknet till höger om Lokal anmärkning: Åtgärd för att lägga till delfält och indikator
   * Sekretessbelagd information / Klicka i boxen (583 indikator 1) 0 = ifylld, 1 = ej ifylld. 
   * Benämning (583 #a)
   * Del av materialet som avses (563 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
-    
 
-
-
-### Lokala amnesord och klassifikation
+## Lokala amnesord och klassifikation
 Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
-* För Ämnesord
-se [hjälp om ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)
-
+* För ämnesord, [se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)
 
 * Lokala ämnesord/rubriker (övriga) (698)
   * Kod (698 #a)
   * Benämning (698 #b)
-  
- 
-  
 
 * För Klassifikation
-se [hjälp om klassifikation](https://libris-dev.kb.se/katalogisering/help/workflow-print-monograph#klassifikation)
+[Se generell hjälptext om Verk](https://libris.kb.se/katalogisering/help/workflow-work) under rubriken Klassifikation.
 
-
-  
-
-### Agenter
+## Agenter
 Här anges agenter som hör till bestånd eller exemplarbeteckning.
-Länka till auktoriteter i första hand, men det går att skapa en lokal entitet för en agent. Se hjälpen [Relationer till Agent]( https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
-  * För relationer till agenters verk se  [Relation till delar och verk](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation)
+Länka till auktoriteter i första hand, men det går att skapa en lokal entitet för en agent. [Se hjälptexten Relationer till Agent]( https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).
+  * För relationer till agenters verk, [se hjälptexten Relation till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
-<br/>
-
-### Elektronisk adress
-* Tillhörande media /Lägg tillMediaobjekt/Skapa lokal entitet/URI (856 4/0)
+## Elektronisk adress
+* Tillhörande media /Lägg till Mediaobjekt/Skapa lokal entitet/URI (856 4/0)
 Länk till den elektroniska resurs som är den bibliografisk resurs som beskrivs
 
 * Annan relaterad resurs /Lägg till Elektronisk/Skapa lokal entitet (856 4/1)
@@ -212,8 +197,6 @@ Egenskaper att lägga till:
   * Länktext (856 #y)
   * Offentlig anmärkning (856 #z)
   * Del av materialet som avses (856 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
-
-
 
 ### Oformaterad bestandsuppgift
 * Beståndsuppgift (866 #a)
@@ -255,10 +238,14 @@ Egenskaper att lägga till:
   * Del av materialet som avses (877 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
   * Underordnad institution/enhet (877 #9)
 
-
 ### Lokalt definierade bestandsfalt
-*OBS! Tillsvidare måste indikator 1 och 2 läggas till för att fälten ska kunna exporteras*
 * Lokalt definierat beståndsfält (beståndsfält 948)
+  * Beståndsfält 948, a-z, A-Z samt 0-9 kan läggas till.
+  * Beståndsfält 948, indikator 1
+  * Beståndsfält 948, indikator 2
+Sök upp de fält som önskas, t.ex.: Beståndsfält 948, delfält a
+
 * Lokalt definierat beståndsfält (beståndsfält 949)
-Beståndsfält a-z, A-Z samt 0-9 kan läggas till.
-Sök upp det fält som önskas, t.ex. Beståndsfält 948, delfält a
+  * Beståndsfält 949, a-z, A-Z samt 0-9 kan läggas till.
+  * Beståndsfält 949, indikator 1
+  * Beståndsfält 949, indikator 2
